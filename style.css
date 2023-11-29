@@ -40,6 +40,7 @@ body {
   padding: 2rem;
   align-items: center;
   gap: 1rem;
+  position: relative;
 }
 /* Content1 */
 .content1,.content2 {
@@ -324,7 +325,6 @@ min-height: 100vh;
 #box6{
   background-image:linear-gradient(rgba(0, 0, 0, 0.185),rgba(0, 0, 0, 0.288)), url("Projects/Images/audience-1853662_1280.jpg ");
   min-height: 50vh;
-  width: 50vw;
   background-position: center;
   padding: 1rem;
   background-attachment: fixed;
@@ -332,20 +332,43 @@ min-height: 100vh;
   background-size: cover;
   font-family: "Rubik", sans-serif;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
 }
 #box6 p{
   background-color: rgba(0, 0, 0, 0.76);
   letter-spacing: 2px;
-  padding:8rem;
+  padding:5rem;
   line-height:30px;
 
 }
 /* Box7 */
 #box7{
+  padding: 0.5rem;
+  /* border: solid black; */
+  /* background-color: grey; */
+  background-image:linear-gradient(rgba(0, 0, 0, 0.822),rgba(0, 0, 0, 0.616)), url("Projects/Images/music-1813100_1280.png   ");
+  background-attachment: fixed;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+.content5{
+  /* border: solid red; */
+  padding:0.5rem;
+  display: grid;
+  gap: 1rem;
+}
+.content5 p{
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 2px;
+}
+/* Box8 */
+#box8{
   /* margin:5rem 0rem; */
-  /* background-color:   red; */
+  background-color:   rgba(128, 128, 128, 0.342);
   color: black;
   display: flex;
   width: 100%;
@@ -401,6 +424,9 @@ min-height: 100vh;
   }
   .card img{
     width:60%;
+  }
+  #box6 p{
+    padding: 1rem;
   }
  
 }
