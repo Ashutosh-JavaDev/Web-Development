@@ -140,9 +140,8 @@ body {
 }
 /* Box 2 */
 #box2{
-  display: flex;
-  /* grid-template-columns: repeat(auto-fit,minmax(200px,800px)); */
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
   justify-content:center ;
   align-items: center;
   gap: 1rem;
@@ -173,13 +172,30 @@ background-size: cover;
   font-family: "Mulish", sans-serif;
 }
 .content4{
-  border: solid red;
+  /* border: solid red; */
+  padding:0.5rem;
+  display: grid;
+  gap: 1rem;
 }
 .development{
-  border: solid blue;
+  /* border: solid blue; */
+  background-color: rgba(129, 129, 129, 0.432);
+  /* padding: 1rem; */
+}
+.skills h2{
+  font-family: "roboto", sans-serif;
+  letter-spacing: 2px;
+  padding: 0.3rem;
+  background-color: black;
+
 }
 .success{
-  border: solid green;
+  /* border: solid green; */
+  padding:0.5rem;
+}
+.success h2{
+  font-family: "Abel", sans-serif;
+  letter-spacing: 2px;
 }
 /* Box3 */
 #box3{
@@ -286,7 +302,7 @@ min-height: 100vh;
 .content{
   /* border: solid blue; */
   background-color: rgba(0, 0, 0, 0.863);
-  box-shadow: 2px 2px 5px grey;
+  /* box-shadow: 2px 2px 5px grey; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -306,6 +322,28 @@ min-height: 100vh;
 }
 /* Box6 */
 #box6{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.185),rgba(0, 0, 0, 0.288)), url("Projects/Images/audience-1853662_1280.jpg ");
+  min-height: 50vh;
+  width: 50vw;
+  background-position: center;
+  padding: 1rem;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box6 p{
+  background-color: rgba(0, 0, 0, 0.76);
+  letter-spacing: 2px;
+  padding:8rem;
+  line-height:30px;
+
+}
+/* Box7 */
+#box7{
   /* margin:5rem 0rem; */
   /* background-color:   red; */
   color: black;
