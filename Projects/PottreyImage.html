@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="shortcut icon" href="/Images/back.png" type="image/x-icon">
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      body {
+        width: 100vw;
+        height: 100vh;
+      }
+      .container {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        background-color: rgba(128, 128, 128, 0.383);
+        place-self: center;
+        padding: 25px;
+        grid-auto-rows: auto;
+      }
+      .content {
+        align-items: center;
+      }
+      h2{
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 10px;
+      }
+      .content img {
+        width: 100%;
+        height: 100%;
+        box-shadow: 2px 2px 5px black;
+        border-radius: 10px;
+      }
+      @media(max-width:1000px){
+        .content{
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Gallery</h2>
+    <div class="container">
+      <div class="content">
+        <div class="contain1">
+          <img src="/Images/Ashutosh-Fort.jpg" alt="Fort" />
+        </div>
+      </div>
+      <div class="content">
+        <div class="contain2">
+          <img src="/Images/Ashutosh-Lake.jpg" alt="Lake" />
+        </div>
+      </div>
+      <div class="content">
+        <div class="contain3">
+          <img src="/Images/Ashutosh-Temple.jpg" alt="Temple" />
+        </div>
+      </div>
+      <div class="content">
+        <div class="contain4">
+          <img src="/Images/Ashutosh-Vintage.jpg" alt="Baby Boy" />
+        </div>
+      </div>
+      <div class="content">
+        <div class="contain5">
+          <img src="/Images/Ashutosh-park.jpg" alt="Park" />
+        </div>
+      </div>
+      <div class="content">
+        <div class="contain6">
+          <img src="/Images/Hill-Ashutosh.jpg" alt="Hill" />
+        </div>
+      </div>
+      <div class="content">
+        <div class="contain7">
+          <img src="/Images/Ashutoshh-Bridge.jpg" alt="bridge" />
+        </div>
+      </div>
+      <div class="content">
+        <div class="contain8">
+          <img src="/Images/Ashutosh-sea.jpg" alt="Sea" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

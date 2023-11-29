@@ -1,0 +1,1700 @@
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Cedarville+Cursive&family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&family=Rubik&family=Seaweed+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Cedarville+Cursive&family=Pacifico&family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&family=Rubik&family=Seaweed+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Cedarville+Cursive&family=Lora:wght@500&family=Pacifico&family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&family=Rubik&family=Seaweed+Script&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(128, 128, 128, 0.098);
+  width: 100vw;
+  height: 100vh;
+  font-family: "Bubblegum Sans", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+  color: black;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.title {
+  padding: 10px;
+}
+.title h1 {
+  font-weight: 100;
+}
+/* Header */
+.navigation {
+  background-color: rgba(112, 107, 107, 0.075);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-top: grey solid;
+  border-bottom: solid grey;
+  justify-content: space-around;
+}
+.title {
+  text-align: center;
+  font-size: 1.5rem;
+  color: black;
+  font-family: "Cedarville Cursive", cursive;
+  font-family: "Seaweed Script", cursive;
+}
+.navbar {
+  display: inline-block;
+  width: 40%;
+}
+.option {
+  display: flex;
+}
+.option li {
+  list-style: none;
+  margin: 5px auto;
+  padding: 5px;
+}
+.option li a {
+  font-family: "Bubblegum Sans", cursive;
+  color: rgba(0, 0, 0, 0.724);
+  font-weight: 600;
+  font-size: 1.8em;
+  text-decoration: none;
+  transition: color 0.5s 0s ease;
+}
+.option li a:hover {
+  color: grey;
+}
+/* Thought */
+.thought {
+  padding: 10px;
+  width: 25%;
+  margin: 10px auto;
+}
+.thought p {
+  text-align: center;
+  letter-spacing: 2px;
+  color: red;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.415);
+}
+
+/* Introduction */
+.introduction {
+  width: 50%;
+  margin: 10px auto;
+}
+.introduction p {
+  border-radius: 30px;
+  display: inline-block;
+  padding: 15px;
+  box-shadow: 2px 2px 15px;
+  line-height: 1.5;
+  word-spacing: 2px;
+}
+/* Box */
+#box {
+  display: flex;
+  justify-content: center;
+}
+
+/* Box 1 */
+
+.box1 {
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+ }
+.box1 img {
+  width: 300px;
+  height: 200px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 5px;
+  transition: all 0.5s 0s ease;
+}
+.box1 img:hover {
+  transform: scale(1.05);
+}
+.star {
+  margin-left: 10px;
+}
+.box1 h3 {
+  margin-left: 10px;
+}
+.checked {
+  color: orange;
+}
+
+/* Box 2 */
+.box2 {
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+}
+.box2 img {
+  width: 300px;
+  height: 200px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 5px;
+  transition: all 0.5s 0s ease;
+}
+.box2 img:hover {
+  transform: scale(1.05);
+}
+.star {
+  margin-left: 10px;
+}
+.box2 h3 {
+  margin-left: 10px;
+}
+.checked {
+  color: orange;
+}
+
+/* Box 3 */
+.box3 {
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+}
+.box3 img {
+  width: 300px;
+  height: 200px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 5px;
+  transition: all 0.5s 0s ease;
+}
+.box3 img:hover {
+  transform: scale(1.05);
+}
+.star {
+  margin-left: 10px;
+}
+.box3 h3 {
+  margin-left: 10px;
+}
+.checked {
+  color: orange;
+}
+
+/* Tips */
+.tips {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  width: 50%;
+  border-radius: 20px;
+  background-color: rgba(255, 192, 203, 0.413);
+  margin: 15px auto;
+  padding: 10px 15px;
+}
+.tipcontainer {
+  width: 25%;
+  font-size: 1.1em;
+  padding: 10px;
+  font-family: "Bubblegum Sans", cursive;
+  font-family: "Cedarville Cursive", cursive;
+  font-family: "Lora", serif;
+}
+
+.inputvalue {
+  padding: 17px 5px;
+}
+
+.inputvalue input {
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.inputvalue button {
+  background-color: rgb(255, 166, 0);
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: white;
+  font-weight: 600;
+}
+.inputvalue button:hover {
+  cursor: pointer;
+}
+
+/* Latest Recipies */
+#latestrecipies h4 {
+  font-family: "Bubblegum Sans", cursive;
+  font-family: "Cedarville Cursive", cursive;
+  font-family: "Lora", serif;
+  font-size: 25px;
+  margin: 5px;
+  font-weight: 100;
+  text-align: center;
+  text-decoration: underline;
+}
+.latest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  margin: 15px;
+  box-shadow: 2px 2px 8px;
+  background-color: rgba(128, 128, 128, 0.135);
+  width: 15%;
+  height: auto; /* Set height to auto to adjust based on content */
+  border-radius: 20px;
+  transition: all 0.5s 0s ease;
+}
+
+.card .pancakes img {
+  box-shadow: 1px 2px 10px;
+  border-radius: 18px;
+  width: 100%; /* Use 100% to make the image responsive within the card */
+  height: auto; /* Allow the image to adjust its height proportionally */
+}
+
+.card .pumpkin {
+  padding: 5px;
+}
+
+.card .paragraph {
+  padding: 5px;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+/* Latest 2 */
+.latest2 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+/* Myself */
+#myselfcontainer {
+  padding:5px;
+  border-radius: 200px;
+  margin: 25px 0px;
+}
+.myself {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 12%;
+  margin: 15px auto;
+  font-weight: 100;
+  border-radius: 50px;
+  box-shadow: 2px 5px 25px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.563);
+  transition: all 0.3s 0s ease-in-out;
+}
+#myselfcontainer :hover{
+  transform: scale(1.03);
+}
+.myself img {
+  width: 120px;
+  height: 120px;
+  box-shadow: 2px 2px 15px black;
+  border-radius: 100px;
+}
+.name {
+  font-size: 12px;
+  padding: 5px;
+}
+.aboutme {
+  font-size: 12px;
+  padding: 5px;
+}
+
+#more {
+  padding: 5px;
+}
+#more a{
+  text-decoration: none;
+  color: black;
+}
+#more button {
+  padding: 5px;
+  border-radius: 10px;
+}
+#more button:hover {
+  cursor: pointer;
+}
+
+/* Curated Collection */
+.collection1 {
+  font-family: "Bubblegum Sans", cursive;
+  font-family: "Cedarville Cursive", cursive;
+  font-family: "Lora", serif;
+  font-size: 25px;
+  margin: 5px;
+  font-weight: 100;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.curatedcontainer {
+  border: solid rgba(0, 0, 255, 0);
+}
+.curated {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+/* Sushi */
+.sushi {
+  display: inline-block;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px;
+  margin: 20px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.662);
+}
+.sushi img {
+  border-radius: 15px;
+  height: 200px;
+  width: 300px;
+  padding: 5px;
+}
+.sushi h3 {
+  padding: 3px;
+}
+.sushi button {
+  padding: 4px;
+  border-radius: 5px;
+}
+/* Manchurian */
+.manchurian {
+  display: inline-block;
+  flex-wrap: wrap;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px;
+  padding: 3px;
+  background-color: rgba(255, 255, 255, 0.662);
+}
+.manchurian img {
+  border-radius: 15px;
+  height: 200px;
+  width: 300px;
+  padding: 5px;
+}
+.manchurian h3 {
+  padding: 3px;
+}
+.manchurian button {
+  padding: 4px;
+  border-radius: 5px;
+}
+/*Momos*/
+.momos {
+  display: inline-block;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 2px 2px 10px;
+  padding: 3px;
+  background-color: rgba(255, 255, 255, 0.662);
+}
+.momos img {
+  border-radius: 15px;
+  height: 200px;
+  width: 300px;
+  padding: 5px;
+}
+.momos h3 {
+  padding: 3px;
+}
+.momos button {
+  padding: 4px;
+  border-radius: 5px;
+}
+
+/* Latest Recipies */
+.collection2 {
+  font-family: "Bubblegum Sans", cursive;
+  font-family: "Cedarville Cursive", cursive;
+  font-family: "Lora", serif;
+  font-size: 25px;
+  margin: 5px;
+  font-weight: 100;
+  text-align: center;
+  text-decoration: underline;
+}
+.containerlatest {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+/* milkshakes */
+.milkshakes {
+  display: inline-block;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 2px 2px 10px;
+  padding: 5px;
+  background-color: rgba(223, 144, 95, 0.209);
+}
+.milkshakes img {
+  border-radius: 15px;
+  height: 200px;
+  width: 300px;
+  padding: 5px;
+}
+.milkshakes h4 {
+  padding: 3px;
+}
+/* Vegan Rice */
+.rice {
+  display: inline-block;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 2px 2px 10px;
+  padding: 5px;
+  background-color: rgba(223, 144, 95, 0.209);
+}
+.rice img {
+  border-radius: 15px;
+  height: 200px;
+  width: 300px;
+  padding: 5px;
+}
+.rice h4 {
+  padding: 3px;
+}
+
+/* Sandwich */
+.sandwich {
+  display: inline-block;
+  flex-wrap: wrap;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px;
+  padding: 5px;
+  background-color: rgba(223, 144, 95, 0.209);
+}
+.sandwich img {
+  border-radius: 15px;
+  height: 200px;
+  width: 300px;
+  padding: 5px;
+}
+.sandwich h4 {
+  padding: 3px;
+}
+
+/* Carrrot Cake */
+.carrotcake {
+  display: inline-block;
+  flex-wrap: wrap;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px;
+  padding: 5px;
+  background-color: rgba(223, 144, 95, 0.209);
+}
+.carrotcake img {
+  border-radius: 15px;
+  height: 200px;
+  width: 300px;
+  padding: 5px;
+}
+.carrotcake h4 {
+  padding: 3px;
+}
+
+/* Rajma */
+.rajma {
+  display: inline-block;
+  flex-wrap: wrap;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px;
+  padding: 5px;
+  background-color: rgba(223, 144, 95, 0.209);
+}
+.rajma img {
+  border-radius: 15px;
+  height: 200px;
+  width: 300px;
+  padding: 5px;
+}
+.rajma h4 {
+  padding: 3px;
+}
+
+/* Contact */
+#universal {
+  background-color: rgba(0, 0, 0, 0.236);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#universal h3 {
+  font-family: "Bubblegum Sans", cursive;
+  font-family: "Cedarville Cursive", cursive;
+  font-family: "Lora", serif;
+  font-size: 25px;
+  margin: 5px;
+  color: black;
+  font-weight: 100;
+  text-align: center;
+  text-decoration: underline;
+}
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+}
+.alldetail {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.address {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  flex-wrap: wrap;
+}
+.allcontact {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+.allcontact a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+/* Media Query */
+
+@media (max-width: 400px) {
+  .navbar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 10px;
+  }
+  .option {
+    flex-wrap: wrap;
+  }
+
+  .thought {
+    width: 100%;
+  }
+  .introduction {
+    width: 100%;
+  }
+  .introduction p {
+    font-size: 12px;
+    padding: 15px;
+    margin: 5px;
+  }
+
+  #box {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  /* Box 1 */
+  .box1 {
+    width: fit-content;
+    height: fit-content;
+  }
+  .box1 img {
+    width: 120px;
+    height: 80px;
+  }
+  .checked {
+    width: 12px;
+  }
+  .box1 h3 {
+    font-size: 12px;
+  }
+  /* Box 2 */
+  .box2 {
+    width: fit-content;
+    height: fit-content;
+  }
+  .box2 img {
+    width: 120px;
+    height: 80px;
+  }
+  .checked {
+    width: 12px;
+  }
+  .box2 h3 {
+    font-size: 12px;
+  }
+  /* Box 3 */
+  .box3 {
+    width: fit-content;
+    height: fit-content;
+  }
+  .box3 img {
+    width: 120px;
+    height: 80px;
+  }
+  .checked {
+    width: 12px;
+  }
+  .box3 h3 {
+    font-size: 12px;
+  }
+
+  /* Tips */
+  .tips {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 2px 5px;
+  }
+  .tipcontainer {
+    width: 70%;
+  }
+  .tipcontainer h4 {
+    font-size: 12px;
+  }
+  .inputvalue {
+    width: 100%;
+    display: flex;
+  }
+  .inputvalue input {
+    width: 70%;
+    padding: 5px;
+  }
+  .inputvalue button {
+    width: 25%;
+    padding: 2px 2px;
+  }
+  /* Latest */
+  .latest {
+    flex-wrap: wrap;
+    justify-content: stretch;
+    justify-content: space-evenly;
+  }
+  .latest .card {
+    padding: 5px;
+    width: min-content;
+  }
+  /* Latest 2 */
+  .latest2 {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 0px;
+  }
+  .latest2 .card {
+    width: min-content;
+    /* padding: 5px; */
+  }
+  .card .pancakes img {
+    margin: 5px;
+    /* padding: 5px; */
+    width: 200px;
+  }
+  .card .pumpkin {
+    font-size: 12px;
+  }
+  .card .paragraph p {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  /* My self */
+  .myselfcontainer {
+    flex-wrap: wrap;
+    border-radius: 100px;
+  }
+  .myself {
+    flex-wrap: wrap;
+    width: 50%;
+  }
+
+  /* Curated Container */
+  .curatedcontainer {
+    width: 100%;
+  }
+  .curated {
+    padding: 15px 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  /* Sushi */
+  .sushi {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .sushi img {
+    width: 150px;
+    height: 100px;
+  }
+  .sushi h3 {
+    font-size: 12px;
+  }
+  .sushi button {
+    width: max-content;
+    font-size: 10px;
+  }
+  /* manchurian */
+
+  .manchurian {
+    margin: 15px 5px;
+    width: min-content;
+  }
+  .manchurian img {
+    width: 150px;
+    height: 100px;
+  }
+  .manchurian h3 {
+    font-size: 12px;
+  }
+  .manchurian button {
+    width: max-content;
+    font-size: 10px;
+  }
+  /* Momos */
+  .momos {
+    margin: 15px 5px;
+    width: min-content;
+  }
+  .momos img {
+    width: 150px;
+    height: 100px;
+  }
+  .momos h3 {
+    font-size: 12px;
+  }
+  .momos button {
+    width: max-content;
+    font-size: 10px;
+  }
+
+  /* New Recipies */
+  .latestcontainer {
+    width: 100%;
+  }
+  .containerlatest {
+    padding: 15px 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  /* milkshakes */
+  .milkshakes {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .milkshakes img {
+    width: 150px;
+    height: 100px;
+  }
+  .milkshakes h4 {
+    font-size: 12px;
+  }
+  /* vegan rice */
+  .rice {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .rice img {
+    width: 150px;
+    height: 100px;
+  }
+  .rice h4 {
+    font-size: 12px;
+  }
+  /* sandwichh */
+  .sandwich {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .sandwich img {
+    width: 150px;
+    height: 100px;
+  }
+  .sandwich h4 {
+    font-size: 12px;
+  }
+  /* carrot  cake */
+  .carrotcake {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .carrotcake img {
+    width: 150px;
+    height: 100px;
+  }
+  .carrotcake h4 {
+    font-size: 12px;
+  }
+  /* rajma */
+  .rajma {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .rajma img {
+    width: 150px;
+    height: 100px;
+  }
+  .rajma h4 {
+    font-size: 12px;
+  }
+}
+
+/* Media Query 2 */
+
+@media (min-width: 401px) and (max-width: 800px) {
+  .navbar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 10px;
+  }
+  .option {
+    flex-wrap: wrap;
+  }
+
+  .thought {
+    width: 100%;
+  }
+  .introduction {
+    width: 100%;
+  }
+  .introduction p {
+    font-size: 12px;
+    padding: 15px;
+    margin: 5px;
+  }
+
+  #box {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  /* Box 1 */
+  .box1 {
+    width: fit-content;
+    height: fit-content;
+  }
+  .box1 img {
+    width: 120px;
+    height: 80px;
+  }
+  .checked {
+    width: 12px;
+  }
+  .box1 h3 {
+    font-size: 12px;
+  }
+  /* Box 2 */
+  .box2 {
+    width: fit-content;
+    height: fit-content;
+  }
+  .box2 img {
+    width: 120px;
+    height: 80px;
+  }
+  .checked {
+    width: 12px;
+  }
+  .box2 h3 {
+    font-size: 12px;
+  }
+  /* Box 3 */
+  .box3 {
+    width: fit-content;
+    height: fit-content;
+  }
+  .box3 img {
+    width: 120px;
+    height: 80px;
+  }
+  .checked {
+    width: 12px;
+  }
+  .box3 h3 {
+    font-size: 12px;
+  }
+
+  /* Tips */
+  .tips {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 2px 5px;
+  }
+  .tipcontainer {
+    width: 70%;
+  }
+  .tipcontainer h4 {
+    font-size: 12px;
+  }
+  .inputvalue {
+    width: 100%;
+    display: flex;
+  }
+  .inputvalue input {
+    width: 70%;
+    padding: 5px;
+  }
+  .inputvalue button {
+    width: 25%;
+    padding: 2px 2px;
+  }
+  /* Latest */
+  .latest {
+    flex-wrap: wrap;
+    justify-content: stretch;
+    justify-content: space-evenly;
+  }
+  .latest .card {
+    padding: 5px;
+    width: min-content;
+  }
+  /* Latest 2 */
+  .latest2 {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 0px;
+  }
+  .latest2 .card {
+    width: min-content;
+    /* padding: 5px; */
+  }
+  .card .pancakes img {
+    margin: 5px;
+    /* padding: 5px; */
+    width: 200px;
+  }
+  .card .pumpkin {
+    font-size: 12px;
+  }
+  .card .paragraph p {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  /* My self */
+  .myselfcontainer {
+    flex-wrap: wrap;
+    border-radius: 100px;
+  }
+  .myself {
+    flex-wrap: wrap;
+    width: 50%;
+  }
+
+  /* Curated Container */
+  .curatedcontainer {
+    width: 100%;
+  }
+  .curated {
+    padding: 15px 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  /* Sushi */
+  .sushi {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .sushi img {
+    width: 150px;
+    height: 100px;
+  }
+  .sushi h3 {
+    font-size: 12px;
+  }
+  .sushi button {
+    width: max-content;
+    font-size: 10px;
+  }
+  /* manchurian */
+
+  .manchurian {
+    margin: 15px 5px;
+    width: min-content;
+  }
+  .manchurian img {
+    width: 150px;
+    height: 100px;
+  }
+  .manchurian h3 {
+    font-size: 12px;
+  }
+  .manchurian button {
+    width: max-content;
+    font-size: 10px;
+  }
+  /* Momos */
+  .momos {
+    margin: 15px 5px;
+    width: min-content;
+  }
+  .momos img {
+    width: 150px;
+    height: 100px;
+  }
+  .momos h3 {
+    font-size: 12px;
+  }
+  .momos button {
+    width: max-content;
+    font-size: 10px;
+  }
+
+  /* New Recipies */
+  .latestcontainer {
+    width: 100%;
+  }
+  .containerlatest {
+    padding: 15px 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  /* milkshakes */
+  .milkshakes {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .milkshakes img {
+    width: 150px;
+    height: 100px;
+  }
+  .milkshakes h4 {
+    font-size: 12px;
+  }
+  /* vegan rice */
+  .rice {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .rice img {
+    width: 150px;
+    height: 100px;
+  }
+  .rice h4 {
+    font-size: 12px;
+  }
+  /* sandwichh */
+  .sandwich {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .sandwich img {
+    width: 150px;
+    height: 100px;
+  }
+  .sandwich h4 {
+    font-size: 12px;
+  }
+  /* carrot  cake */
+  .carrotcake {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .carrotcake img {
+    width: 150px;
+    height: 100px;
+  }
+  .carrotcake h4 {
+    font-size: 12px;
+  }
+  /* rajma */
+  .rajma {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .rajma img {
+    width: 150px;
+    height: 100px;
+  }
+  .rajma h4 {
+    font-size: 12px;
+  }
+}
+
+/* Media query 3 */
+
+@media (min-width: 801px) and (max-width:1400px) {
+  .navbar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 15px;
+  }
+  .option {
+    flex-wrap: wrap;
+  }
+
+  .thought {
+    width: 100%;
+  }
+  .introduction {
+    width: 100%;
+  }
+  .introduction p {
+    width: 100%;
+    font-size: 13px;
+    padding: 15px;
+    margin: 5px;
+  }
+
+  #box {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  /* Box 1 */
+  .box1 {
+    width: fit-content;
+    height: fit-content;
+  }
+  .box1 img {
+    width: 200px;
+    height: 100px;
+  }
+  .checked {
+    width: 18px;
+  }
+  .box1 h3 {
+    font-size: 15px;
+  }
+  /* Box 2 */
+  .box2 {
+    width: fit-content;
+    height: fit-content;
+  }
+  .box2 img {
+    width: 200px;
+    height: 100px;
+  }
+  .checked {
+    width: 18px;
+  }
+  .box2 h3 {
+    font-size: 15px;
+  }
+  /* Box 3 */
+  .box3 {
+    width: fit-content;
+    height: fit-content;
+  }
+  .box3 img {
+    width: 200px;
+    height: 100px;
+  }
+  .checked {
+    width: 18px;
+  }
+  .box3 h3 {
+    font-size: 15px;
+  }
+
+  /* Tips */
+  .tips {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 2px 5px;
+  }
+  .tipcontainer {
+    width: 70%;
+  }
+  .tipcontainer h4 {
+    font-size: 15px;
+  }
+  .inputvalue {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+  .inputvalue input {
+    width: 50%;
+    padding: 5px;
+  }
+  .inputvalue button {
+    width: 15%;
+    padding: 2px 2px;
+  }
+  /* Latest */
+  .latest {
+    flex-wrap: wrap;
+    justify-content: stretch;
+    justify-content: space-evenly;
+  }
+  .latest .card {
+    padding: 5px;
+    width: min-content;
+  }
+  /* Latest 2 */
+  .latest2 {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 0px;
+  }
+  .latest2 .card {
+    width: min-content;
+    /* padding: 5px; */
+  }
+  .card .pancakes img {
+    margin: 5px;
+    /* padding: 5px; */
+    width: 200px;
+  }
+  .card .pumpkin {
+    font-size: 15px;
+  }
+  .card .paragraph p {
+    padding: 8px 12px;
+    font-size: 15px;
+  }
+
+  /* My self */
+  .myselfcontainer {
+    flex-wrap: wrap;
+    border-radius: 100px;
+  }
+  .myself {
+    flex-wrap: wrap;
+    width: 50%;
+  }
+
+  /* Curated Container */
+  .curatedcontainer {
+    width: 100%;
+  }
+  .curated {
+    padding: 15px 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  /* Sushi */
+  .sushi {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .sushi img {
+    width: 150px;
+    height: 100px;
+  }
+  .sushi h3 {
+    font-size: 12px;
+  }
+  .sushi button {
+    width: max-content;
+    font-size: 10px;
+  }
+  /* manchurian */
+
+  .manchurian {
+    margin: 15px 5px;
+    width: fit-content;
+  }
+  .manchurian img {
+    width: 150px;
+    height: 100px;
+  }
+  .manchurian h3 {
+    font-size: 12px;
+  }
+  .manchurian button {
+    width: max-content;
+    font-size: 10px;
+  }
+  /* Momos */
+  .momos {
+    margin: 15px 5px;
+    width: min-content;
+  }
+  .momos img {
+    width: 150px;
+    height: 100px;
+  }
+  .momos h3 {
+    font-size: 12px;
+  }
+  .momos button {
+    width: max-content;
+    font-size: 10px;
+  }
+
+  /* New Recipies */
+  .latestcontainer {
+    width: 100%;
+  }
+  .containerlatest {
+    padding: 15px 5px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  /* milkshakes */
+  .milkshakes {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .milkshakes img {
+    width: 200px;
+    height: 125px;
+  }
+  .milkshakes h4 {
+    font-size: 15px;
+  }
+  /* vegan rice */
+  .rice {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .rice img {
+    width: 200px;
+    height: 125px;
+  }
+  .rice h4 {
+    font-size: 15px;
+  }
+  /* sandwichh */
+  .sandwich {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .sandwich img {
+    width: 200px;
+    height: 125px;
+  }
+  .sandwich h4 {
+    font-size: 15px;
+  }
+  /* carrot  cake */
+  .carrotcake {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .carrotcake img {
+    width: 200px;
+    height: 125px;
+  }
+  .carrotcake h4 {
+    font-size: 15px;
+  }
+  /* rajma */
+  .rajma {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .rajma img {
+    width: 200px;
+    height: 120px;
+  }
+  .rajma h4 {
+    font-size: 15px;
+  }
+}
+
+
+/* Media Query 4 */
+
+@media (min-width: 801px) and (max-width:1500px) {
+  .navbar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 15px;
+  }
+  .option {
+    flex-wrap: wrap;
+  }
+
+  .thought {
+    width: 100%;
+  }
+  .introduction {
+    width: 100%;
+  }
+  .introduction p {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+  }
+
+  #box {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  /* Box 1 */
+  .box1 {
+    width: fit-content;
+    height: fit-content;
+  }
+  .box1 img {
+    width: 200px;
+    height: 100px;
+  }
+  .checked {
+    width: 18px;
+  }
+  .box1 h3 {
+    font-size: 15px;
+  }
+  /* Box 2 */
+  .box2 {
+    width: fit-content;
+    height: fit-content;
+  }
+  .box2 img {
+    width: 200px;
+    height: 100px;
+  }
+  .checked {
+    width: 18px;
+  }
+  .box2 h3 {
+    font-size: 15px;
+  }
+  /* Box 3 */
+  .box3 {
+    width: fit-content;
+    height: fit-content;
+  }
+  .box3 img {
+    width: 200px;
+    height: 100px;
+  }
+  .checked {
+    width: 18px;
+  }
+  .box3 h3 {
+    font-size: 15px;
+  }
+
+  /* Tips */
+  .tips {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 2px 5px;
+  }
+  .tipcontainer {
+    width: 70%;
+  }
+  .tipcontainer h4 {
+    font-size: 20px;
+  }
+  .inputvalue {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+  .inputvalue input {
+    width: 50%;
+    padding: 5px;
+  }
+  .inputvalue button {
+    width: 15%;
+    padding: 2px 2px;
+  }
+  /* Latest */
+  .latest {
+    flex-wrap: wrap;
+    justify-content: stretch;
+    justify-content: space-evenly;
+  }
+  .latest .card {
+    padding: 5px;
+    width: min-content;
+  }
+  /* Latest 2 */
+  .latest2 {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 0px;
+  }
+  .latest2 .card {
+    width: min-content;
+    /* padding: 5px; */
+  }
+  .card .pancakes img {
+    margin: 5px;
+    /* padding: 5px; */
+    width: 200px;
+  }
+  .card .pumpkin {
+    font-size: 15px;
+  }
+  .card .paragraph p {
+    padding: 8px 12px;
+    font-size: 15px;
+  }
+
+  /* My self */
+  .myselfcontainer {
+    flex-wrap: wrap;
+    border-radius: 100px;
+  }
+  .myself {
+    flex-wrap: wrap;
+    width: 25%;
+  }
+  .myself .aboutme{
+    font-size: 15px;
+  }
+  .myself button{
+    font-size: 16px;
+  }
+
+  /* Curated Container */
+  .curatedcontainer {
+    width: 100%;
+  }
+  .curated {
+    padding: 15px 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  /* Sushi */
+  .sushi {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .sushi img {
+    width: 200px;
+    height: 120px;
+  }
+  .sushi h3 {
+    font-size: 15px;
+  }
+  .sushi button {
+    width: max-content;
+    font-size: 10px;
+  }
+  /* manchurian */
+
+  .manchurian {
+    margin: 15px 5px;
+    width: fit-content;
+  }
+  .manchurian img {
+    width: 200px;
+    height: 120px;
+  }
+  .manchurian h3 {
+    font-size: 15px;
+  }
+  .manchurian button {
+    width: max-content;
+    font-size: 10px;
+  }
+  /* Momos */
+  .momos {
+    margin: 15px 5px;
+    width: min-content;
+  }
+  .momos img {
+    width: 200px;
+    height: 120px;
+  }
+  .momos h3 {
+    font-size: 15px;
+  }
+  .momos button {
+    width: max-content;
+    font-size: 10px;
+  }
+
+  /* New Recipies */
+  .latestcontainer {
+    width: 100%;
+  }
+  .containerlatest {
+    padding: 15px 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  /* milkshakes */
+  .milkshakes {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .milkshakes img {
+    width: 200px;
+    height: 125px;
+  }
+  .milkshakes h4 {
+    font-size: 15px;
+  }
+  /* vegan rice */
+  .rice {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .rice img {
+    width: 200px;
+    height: 125px;
+  }
+  .rice h4 {
+    font-size: 15px;
+  }
+  /* sandwichh */
+  .sandwich {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .sandwich img {
+    width: 200px;
+    height: 125px;
+  }
+  .sandwich h4 {
+    font-size: 15px;
+  }
+  /* carrot  cake */
+  .carrotcake {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .carrotcake img {
+    width: 200px;
+    height: 125px;
+  }
+  .carrotcake h4 {
+    font-size: 15px;
+  }
+  /* rajma */
+  .rajma {
+    margin: 5px 5px;
+    width: min-content;
+  }
+  .rajma img {
+    width: 200px;
+    height: 120px;
+  }
+  .rajma h4 {
+    font-size: 15px;
+  }
+}

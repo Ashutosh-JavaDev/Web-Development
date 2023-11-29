@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application</title>
+    <link rel="stylesheet" href="form.css" />
+    <link rel="shortcut icon" href="gym.jpg" type="image/x-icon">
+  </head>
+  <body>
+    <div class="container">
+      <div class="apply">
+        <h1>Join Application <span class="web">(Web)</span></h1>
+        <!-- parent class -->
+        <form action="">
+          <div class="box_container">
+            <!-- child conrtainer -->
+            <div class="child_container">
+              <!-- Firstname -->
+              <label for="Firstname">Enter First Name</label>
+              <input
+                type="text"
+                name="Firstname"
+                id="Firstname"
+                placeholder="Enter first Name..."
+              />
+              <!-- SecondName -->
+              <label for="SecondName">Enter Last Name</label>
+              <input
+                type="text"
+                name="SecondName"
+                id="SecondName"
+                placeholder="Enter Last Name..."
+              />
+              <!-- Email -->
+              <label for="Email">Enter Email</label>
+              <input
+                type="email"
+                name="Email"
+                id="Email"
+                placeholder="Enter Email..."
+              />
+              <!-- Job Role -->
+              <label for="Job">Job Role</label>
+              <select name="job" id="Job">
+                <option value="">Select Job Role</option>
+                <option value="Frontend">Assistant</option>
+                <option value="Backend">Junior Photogrpher</option>
+                <option value="Full Stack">Junior VideoGrapher</option>
+                <option value="UI/UX">Senior VideoGrapher</option>
+              </select>
+              <!-- Address -->
+              <div class="textarea_control">
+              <label for="Address">Address</label>
+              <textarea
+                name="Address"
+                id="Address"
+                cols="20"
+                rows="2"
+              ></textarea>
+            </div>
+              <!-- City -->
+              <label for="City">City</label>
+              <input
+                type="text"
+                name="City"
+                id="City"
+                placeholder="Enter City..."
+              />
+              <!-- pincode -->
+              <label for="pincode">Pincode</label>
+              <input
+                type="number"
+                name="pincode"
+                id="pincode"
+                placeholder="Enter Pincode..."
+              />
+              <!-- DOB -->
+              <label for="DOB">Select DOB</label>
+              <input type="date" name="DOB" id="DOB" />
+              <!-- Resume -->
+              <label for="Resume">Upload CV</label>
+              <input type="file" name="Resume" id="Resume" />
+            </div>
+          </div>
+          <div class="button_container">
+            <button type="submit"><a href="Submit.html">Apply Now</a></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
