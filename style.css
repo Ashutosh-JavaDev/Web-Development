@@ -364,6 +364,7 @@ min-height: 100vh;
   font-size: 1.2rem;
   font-family: "Playfair Display", serif;
   letter-spacing: 2px;
+  /* color: black; */
 }
 /* Box8 */
 #box8{
@@ -421,6 +422,9 @@ min-height: 100vh;
   }
   .container p{
     font-size: 1rem;
+  }
+  .content5 p{
+    color: black;
   }
   .card img{
     width:60%;
