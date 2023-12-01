@@ -1,6 +1,13 @@
-function table(size){
-    for(i=1;i<=size;i++){
-        console.log(2+" * "+i+" = "+2*i);
-    }
+function table(size) {
+  for (i = 1; i <= 10; i++) {
+    console.log(size + " * " + i + " = " + size * i);
+  }
 }
-table(10)
+let click = confirm("Do you want to see the output");
+if (click == true) {
+  let input = prompt("Enter the NUmber");
+  table(input);
+}
+else{
+    console.log("No Output Available");
+}
