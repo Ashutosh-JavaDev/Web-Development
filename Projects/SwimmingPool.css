@@ -68,20 +68,53 @@ body {
 }
 /* Main */
 .head {
-  border: solid red;
+  /* border: solid red; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  margin-top: 10rem;
+  align-items: end;
+  /* margin-top: 10rem; */
   padding: 2rem;
-  height: max-content;
+  height:80vh;
 }
 .heading {
-  border: solid blue;
+  /* border: solid blue; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(100px,500px));
+  justify-content: center;
+  align-items: center;
   padding: 2rem;
 }
 .content {
-  border: solid green;
+  /* border: solid green; */
   padding: 1rem;
+  color: white;
+  display: flex;
+  gap:0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.content span{
+  font-size:3.5rem;
+  font-weight: bold;
+}
+@media(max-width:330px){
+  .content span{
+    font-size:2rem;
+  }
+}
+.content .points{
+  font-size: 2rem;
+  font-weight:200;
+}
+.content button{
+  background-color: rgb(12, 12, 71);
+  padding: 0.8rem 2.5rem;
+  border-radius:20px;
+  border: transparent;
+}
+.content a{
+  color: white;
+  font-weight:500;
 }
