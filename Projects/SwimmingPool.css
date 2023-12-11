@@ -12,6 +12,13 @@ body {
   width: 100vw;
   height: 100vh;
 }
+header {
+  position:fixed;
+  width: 100%;
+  top: 0;
+  /* border: solid red; */
+  z-index: 1000;
+}
 .box1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.63)),
     url("/Web-Development/Projects/Images/pexels-juan-salamanca-61129.jpg");
