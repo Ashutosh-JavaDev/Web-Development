@@ -34,31 +34,54 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  margin: 0 300px;
 }
-@media (min-width: 768px) {
-  .navbar {
-    margin: 0 300px;
+@media (max-width: 658px) {
+  .navigation {
+    display: none;
   }
 }
 .navbar a {
   font-size: 1.2rem;
-  color:black;
+  color: black;
   transition: color 0.2s;
 }
-.navbar a:hover{
+.navbar a:hover {
   color: blue;
 }
 .lists {
   /* border: solid green; */
   display: flex;
   justify-content: space-evenly;
+  /* flex-wrap: wrap; */
+
   gap: 2rem;
   padding: 1rem;
 }
 .componenet {
   /* border: solid blue; */
   display: flex;
+  /* flex-wrap: wrap; */
   gap: 2rem;
   padding: 1rem;
   justify-content: space-evenly;
+}
+/* Main */
+.head {
+  border: solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  padding: 2rem;
+  height: max-content;
+}
+.heading {
+  border: solid blue;
+  padding: 2rem;
+}
+.content {
+  border: solid green;
+  padding: 1rem;
 }
