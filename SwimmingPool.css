@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Agbalumo&family=Bubblegum+Sans&family=Cedarville+Cursive&family=Josefin+Sans:wght@300;400&family=Jost:wght@500&family=Lora:wght@500&family=Martel+Sans:wght@600&family=Mulish&family=Nunito:ital,wght@0,400;0,500;1,300&family=Open+Sans:ital@1&family=Pacifico&family=Playfair+Display:wght@500&family=Poppins:wght@300&family=Raleway&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&family=Rubik&family=Seaweed+Script&family=Signika+Negative&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
