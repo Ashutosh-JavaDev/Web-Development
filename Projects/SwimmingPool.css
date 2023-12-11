@@ -14,19 +14,20 @@ body {
 }
 .box1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.63)),
-    url("/Web-Development/Projects/Images/pexels-yulianto-poitier-1231365.jpg");
-  background-position: center;
+    url("/Web-Development/Projects/Images/pexels-juan-salamanca-61129.jpg");
+  /* background-position: center; */
   background-size: cover;
   height: 100vh;
   background-repeat: no-repeat;
 }
 .navigation {
-  border: solid red;
-  /* background-color: white; */
+  /* border: solid red; */
+  background-color: rgba(255, 255, 255, 0.877);
   padding: 1.5rem;
+  box-shadow: 0px 2px 15px;
 }
 .navbar {
-  border: solid black;
+  /* border: solid black; */
   padding: 0.5rem;
   display: flex;
   gap: 1rem;
@@ -41,19 +42,23 @@ body {
 }
 .navbar a {
   font-size: 1.2rem;
-  /* color:grey; */
+  color:black;
+  transition: color 0.2s;
+}
+.navbar a:hover{
+  color: blue;
 }
 .lists {
-  border: solid green;
+  /* border: solid green; */
   display: flex;
   justify-content: space-evenly;
-  gap: 1rem;
+  gap: 2rem;
   padding: 1rem;
 }
 .componenet {
-  border: solid blue;
+  /* border: solid blue; */
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   padding: 1rem;
   justify-content: space-evenly;
 }
