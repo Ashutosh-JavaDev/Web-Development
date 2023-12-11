@@ -13,42 +13,43 @@ body {
   height: 100vh;
 }
 .box1 {
-  background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.63)), url("/Web-Development/Projects/Images/pexels-yulianto-poitier-1231365.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.63)),
+    url("/Web-Development/Projects/Images/pexels-yulianto-poitier-1231365.jpg");
   background-position: center;
   background-size: cover;
   height: 100vh;
   background-repeat: no-repeat;
 }
 .navigation {
-  /* border: solid red; */
+  border: solid red;
   /* background-color: white; */
   padding: 1.5rem;
 }
 .navbar {
-  /* border: solid black; */
+  border: solid black;
   padding: 0.5rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 500px));
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
+  /* margin: 0 300px; */
 }
 .navbar a {
   font-size: 1.2rem;
   /* color:grey; */
-  
 }
 .lists {
-  /* border: solid green; */
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 150px));
-  justify-content: space-between;
-  padding: 0.5rem;
+  border: solid green;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  padding: 1rem;
 }
 .componenet {
-  /* border: solid blue; */
-  padding: 0.5rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 150px));
-  justify-content: space-between;
+  border: solid blue;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: space-evenly;
 }
