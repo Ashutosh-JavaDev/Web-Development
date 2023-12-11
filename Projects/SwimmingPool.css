@@ -9,4 +9,12 @@
 }
 body{
     font-family: josefin Sans,sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+.box1{
+    background-image: url('/Web-Development/Projects/videos/production_id_4916733\ \(1080p\).mp4');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
