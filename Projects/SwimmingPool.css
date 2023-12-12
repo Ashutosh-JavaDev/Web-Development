@@ -13,7 +13,7 @@ body {
   height: 100vh;
 }
 header {
-  position:fixed;
+  position: fixed;
   width: 100%;
   top: 0;
   /* border: solid red; */
@@ -82,12 +82,12 @@ header {
   align-items: end;
   /* margin-top: 10rem; */
   padding: 2rem;
-  height:80vh;
+  height: 80vh;
 }
 .heading {
   /* border: solid blue; */
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(100px,500px));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 500px));
   justify-content: center;
   align-items: center;
   padding: 2rem;
@@ -97,31 +97,83 @@ header {
   padding: 1rem;
   color: white;
   display: flex;
-  gap:0.5rem;
+  gap: 0.5rem;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.content span{
-  font-size:3.5rem;
+.content span {
+  font-size: 3.5rem;
   font-weight: bold;
 }
-@media(max-width:330px){
-  .content span{
-    font-size:2rem;
+@media (max-width: 330px) {
+  .content span {
+    font-size: 2rem;
   }
 }
-.content .points{
+.content .points {
   font-size: 2rem;
-  font-weight:200;
+  font-weight: 200;
 }
-.content button{
+.content button {
   background-color: rgb(12, 12, 71);
   padding: 0.8rem 2.5rem;
-  border-radius:20px;
+  border-radius: 20px;
   border: transparent;
 }
-.content a{
+.content a {
   color: white;
-  font-weight:500;
+  font-weight: 500;
+}
+/* box 2 */
+.box2 {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(100px, 500px));
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  border: solid red;
+}
+.box {
+  width: 100%;
+  border: solid black;
+}
+.boxes {
+  display: grid;
+  border: solid blue;
+  padding: 1rem;
+  grid-template-columns: repeat(auto-fit,minmax(100px,300px));
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 100%;
+  width: 100%;
+}
+.cards {
+  border: solid grey 0.1rem;
+  border-radius: 25px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width:100%;
+}
+.boxes .card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 0.5rem;
+  min-height: 100%;
+  border-radius: 40px;
+  border: solid green;
+}
+.card img {
+  width:100%;
+  border-radius:20px;
 }
