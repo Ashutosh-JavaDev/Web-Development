@@ -25,6 +25,7 @@ body {
   font-family: "Rubik", sans-serif;
   font-family: "Seaweed Script", cursive;
   font-family: "Signika Negative", sans-serif;
+  scroll-behavior: smooth;
   color: white;
 }
 #box1 {
