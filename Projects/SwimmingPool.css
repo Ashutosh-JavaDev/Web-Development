@@ -172,6 +172,7 @@ header {
   min-height: 100%;
   border-radius: 40px;
   border: solid green;
+  cursor: pointer;
 }
 .card img {
   width:100%;
