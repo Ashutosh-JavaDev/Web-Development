@@ -30,8 +30,8 @@ header {
 .navigation {
   /* border: solid red; */
   background-color: rgba(255, 255, 255, 0.877);
-  padding:0.2rem;
-  box-shadow: 0px 2px 15px;
+  padding: 0.2rem;
+  box-shadow: 0px 1px 5px;
 }
 .navbar {
   /* border: solid black; */
@@ -63,14 +63,14 @@ header {
   /* flex-wrap: wrap; */
 
   gap: 2rem;
-  padding:1rem;
+  padding: 1rem;
 }
 .componenet {
   /* border: solid blue; */
   display: flex;
   /* flex-wrap: wrap; */
   gap: 2rem;
-  padding:1rem;
+  padding: 1rem;
   justify-content: space-evenly;
 }
 /* Main */
@@ -128,7 +128,7 @@ header {
 /* box 2 */
 .box2 {
   display: grid;
-  grid-template-rows: repeat(auto-fit, minmax(100px,300px));
+  grid-template-rows: repeat(auto-fit, minmax(100px, 300px));
   justify-content: center;
   align-items: center;
   padding: 1rem;
@@ -139,21 +139,21 @@ header {
   width: 100%;
   /* border: solid black; */
   color: rgb(20, 20, 58);
-  font-weight:500;
+  font-weight: 500;
   padding: 1rem;
-  font-size:2rem;
+  font-size: 2rem;
   margin-top: 1rem;
 }
-.cards .point1{
+.cards .point1 {
   color: blue;
-  font-weight:500;
+  font-weight: 500;
   font-size: 1.7rem;
 }
 .boxes {
   display: grid;
   /* border: solid blue; */
   padding: 1rem;
-  grid-template-columns: repeat(auto-fit,minmax(100px,300px));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
   justify-content: space-evenly;
   align-items: center;
   gap: 0.5rem;
@@ -163,14 +163,14 @@ header {
 .cards {
   border: solid grey 0.1rem;
   border-radius: 25px;
-  padding:1rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap:1rem;
-  width:100%;
+  gap: 1rem;
+  width: 100%;
 }
 .boxes .card {
   display: flex;
@@ -187,31 +187,32 @@ header {
   transition: all 0.5s;
   overflow: hidden;
 }
-.card button{
+.card button {
   padding: 0.3rem 1rem;
   cursor: pointer;
-  background-color:blue;
+  background-color: blue;
   border: transparent;
-  border-radius:5px;
+  border-radius: 5px;
   color: white;
-  font-weight:800;
+  font-weight: 800;
   transition: all 0.2s;
 }
-.card:hover{
+.card:hover {
   transform: translateY(-10px);
   background-color: rgba(0, 0, 0, 0.733);
   color: white;
 }
-.card button:hover{
+.card button:hover {
   background-color: rgba(128, 0, 128, 0.719);
 }
 .card img {
-  width:100%;
-  border-radius:20px;
+  width: 100%;
+  border-radius: 20px;
 }
 /* box  3 */
-.box3{
-  background-image: url('Images/Picsart_23-12-12_13-26-13-650.jpg');
+.box3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.788)),
+    url("Images/Picsart_23-12-12_13-26-13-650.jpg");
   height: 50vh;
   background-position: center;
   background-size: cover;
@@ -222,12 +223,12 @@ header {
   justify-content: start;
   align-items: center;
 }
-@media(max-width:500px){
-  .box3{
+@media (max-width: 500px) {
+  .box3 {
     height: 100vh;
   }
 }
-.era{
+.era {
   /* border: solid  red; */
   display: flex;
   flex-direction: column;
@@ -238,19 +239,224 @@ header {
   gap: 1rem;
   padding: 1rem;
 }
-.era .point p{
+.era .point p {
   line-height: 1.5rem;
   font-size: 1.1rem;
-}
-.point h3{
-  font-size:5rem;
   color: white;
 }
-.point  button{
+.point h3 {
+  font-size: 5rem;
+  color: white;
+}
+.point button {
   padding: 0.8rem 2rem;
   background-color: transparent;
   border: solid 2px white;
   font-weight: bold;
   border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.point button:hover {
+  background-color: black;
+  color: white;
+}
+/* Box 4 */
+.box4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 580px));
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  /* border: solid red; */
+  padding: 7rem;
+}
+.swim {
+  /* border: solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.swim h3 {
+  font-size: 3rem;
+  color: rgb(9, 9, 87);
+}
+.swim p {
+  line-height: 1.5rem;
+  color: grey;
+}
+.swim button {
+  padding: 1rem 2rem;
+  border: blue 1px solid;
+  border-radius: 15px;
+  color: rgb(7, 7, 95);
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.2s;
+}
+.swim button:hover {
+  background-color: rgb(8, 8, 51);
+  color: white;
+}
+.swim img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 5px 5px;
+}
+/* box  5 */
+.box5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.63)),
+    url("Images/pexels-archie-binamira-707185.jpg");
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 1rem;
+  display: grid;
+  justify-content: end;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  .box5 {
+    height: 100vh;
+  }
+  .box4 {
+    padding: 1rem;
+  }
+}
+.era {
+  /* border: solid  red; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* color: white */
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.era .point p {
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  color: white;
+}
+.point h3 {
+  font-size: 5rem;
+  color: white;
+}
+.point button {
+  padding: 0.8rem 2rem;
+  background-color: transparent;
+  border: solid 2px white;
+  font-weight: bold;
+  border-radius: 15px;
+  color: white;
+}
+/* Box 6 */
+.box6 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 580px));
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  /* border: solid red; */
+  padding:1rem;
+}
+@media(min-width:600px){
+  .box6{
+    padding: 7rem;
+  }
+}
+.swim {
+  /* border: solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.swim h3 {
+  font-size: 3rem;
+  color: rgb(9, 9, 87);
+}
+.swim p {
+  line-height: 1.5rem;
+  color: grey;
+}
+.swim button {
+  padding: 1rem 2rem;
+  border: blue 1px solid;
+  border-radius: 15px;
+  color: rgb(7, 7, 95);
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.swim img {
+  width: 100%;
+  border-radius: 20px;
+}
+/* Box 7 */
+.box7 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.233), rgba(0, 0, 0, 0.788)),
+    url("Images/pexels-riccardo-307008.jpg");
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 1rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  .box7 {
+    height: 100vh;
+  }
+}
+.era {
+  /* border: solid  red; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* color: white */
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.era .point p {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  color: white;
+}
+.point h3 {
+  font-size: 3rem;
+  color: white;
+}
+.point button {
+  padding: 0.8rem 2rem;
+  background-color: transparent;
+  border: solid 2px white;
+  font-weight: bold;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.point button:hover {
+  background-color: black;
   color: white;
 }
