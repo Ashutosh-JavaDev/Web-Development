@@ -128,7 +128,7 @@ header {
 /* box 2 */
 .box2 {
   display: grid;
-  grid-template-rows: repeat(auto-fit, minmax(100px, 500px));
+  grid-template-rows: repeat(auto-fit, minmax(100px,300px));
   justify-content: center;
   align-items: center;
   gap: 0.4rem;
@@ -171,8 +171,28 @@ header {
   padding: 0.5rem;
   min-height: 100%;
   border-radius: 40px;
-  border: solid green;
+  border: solid grey 1px;
   cursor: pointer;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.card button{
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+  background-color:blue;
+  border: transparent;
+  border-radius:5px;
+  color: white;
+  font-weight:800;
+  transition: all 0.2s;
+}
+.card:hover{
+  transform: translateY(-10px);
+  background-color: rgba(0, 0, 0, 0.733);
+  color: white;
+}
+.card button:hover{
+  background-color: rgba(128, 0, 128, 0.719);
 }
 .card img {
   width:100%;
