@@ -209,3 +209,30 @@ header {
   width:100%;
   border-radius:20px;
 }
+/* box  3 */
+.box3{
+  background-image: url('Images/Picsart_23-12-12_13-26-13-650.jpg');
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 1rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.era{
+  border: solid  red;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* color: white */
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.era .point{
+  line-height: 1.5rem;
+}
