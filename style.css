@@ -280,7 +280,7 @@ min-height: 100vh;
 }
 /* Box 5 */
 #box5{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.397),rgba(0, 0, 0, 0.185)), url("Projects/Images/flea-market-1262036_1280.jpg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.397),rgba(0, 0, 0, 0.185)), url("Projects/Images/pexels-hitesh-choudhary-879109.jpg");
 min-height: 100vh;
 background-position: center;
 padding: 1rem;
@@ -296,8 +296,8 @@ min-height: 100vh;
   /* border: solid red; */
  display: grid;
  padding: 1rem;
-  justify-content: center;
-  grid-template-rows: repeat(auto-fit,minmax(300px,1fr));
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
   align-items: center;
   gap: 2rem;
 }
