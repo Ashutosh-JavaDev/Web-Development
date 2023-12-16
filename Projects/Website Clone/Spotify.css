@@ -71,10 +71,42 @@ body {
 .search p {
   color: rgba(255, 255, 255, 0.568);
 }
+/* Grid  2 */
 .grid2 {
   background-color: rgba(128, 128, 128, 0.24);
   border-radius: 10px;
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(50px,80px));
+  /* justify-content: center; */
+  /* align-items: center; */
+  gap: 0.4rem;
+}
+.box1{
+    display: flex;
+    /* border: solid red; */
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.5rem;
+}
+.libary{
+    /* border: solid green; */
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem;
+}
+.libary p,i {
+    color: rgba(255, 255, 255, 0.507);
+    transition: all 0.3s;
+    cursor: pointer;
+    font-weight:10;
+    font-size:1rem;
 
+}
+.libary p:hover,i:hover{
+    color: white;
 }
 .grid3 {
   background-color: red;
