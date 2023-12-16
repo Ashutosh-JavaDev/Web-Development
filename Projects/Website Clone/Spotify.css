@@ -209,10 +209,11 @@ button:hover {
   grid-column: 2/3;
   height: 100%;
   width: 80vw;
-  border: solid red;
+  /* border: solid red; */
   border-radius: 20px;
   padding: 0.8rem;
 }
+
 .div1 {
   /* border: solid red; */
   display: flex;
@@ -328,7 +329,10 @@ button:hover {
 }
 .play i {
   font-size: 3rem;
-  color: rgba(23, 207, 23, 0.74);
+  color: rgba(49, 238, 49, 0.795);
+}
+.play i:hover {
+  transform: scale(1.08);
 }
 @media (max-width: 600px) {
   .maincontent {
@@ -341,5 +345,82 @@ button:hover {
   .play {
     width: 0%;
     opacity: 0.5;
+  }
+}
+/* Episodes */
+.div4 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  align-items: center;
+  font-family: "Martel Sans", sans-serif;
+}
+.div4 p {
+  color: grey;
+}
+.div4 p:hover {
+  color: white;
+  text-decoration: underline;
+}
+.div5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 0.3rem;
+  /* border: solid green; */
+}
+.div5 .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:max-content;
+}
+.div5 .value {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding:0.8rem;
+}
+.div5 .value img {
+  width:120px;
+  height:150px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 13px rgba(0, 0, 0, 0.568);
+}
+.run {
+  /* border: solid black; */
+  /* width: 50%; */
+  display: flex;
+  padding: 0.5rem;
+  justify-content: end;
+  flex-wrap: wrap;
+  opacity: 0;   
+  transform: translateY(50px);
+  transition: all 0.3s;
+  position: absolute;
+}
+.run:hover{
+  opacity: 1;
+  transform: translateY(0px);
+}
+.run i {
+  font-size: 3rem;
+  color: rgba(49, 238, 49, 0.795);
+}
+.run button {
+  background-color: rgba(0, 0, 0, 0.527);
+  box-shadow: 1px 0px 13px rgba(0, 0, 0, 0.527);
+  /* opacity: 0; */
+  border-radius: 25px;
+  border: transparent;
+}
+@media(max-width:580px){
+  .container{
+    grid-template-rows: repeat(auto-fit, minmax(50px,300px));
+
   }
 }
