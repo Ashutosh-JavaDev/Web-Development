@@ -204,22 +204,14 @@ button:hover {
 }
 /* Grid 3 */
 .grid3 {
-  background: linear-gradient(rgba(83, 77, 77, 0.541), rgba(43, 40, 40, 0.151));
+  background: linear-gradient(rgba(255, 252, 252, 0.205), rgb(0, 0, 0));
   grid-row: 1/3;
   grid-column: 2/3;
   height: 100%;
   width: 80vw;
   border: solid red;
   border-radius: 20px;
-  /* padding:0.5rem; */
-}
-.navigation {
-  /* border: solid red; */
-  transition: all 10s;
-  padding: 0.5rem;
-}
-.navigation:hover {
-  background: linear-gradient(rgba(102, 9, 9, 0.493), rgba(0, 0, 0, 0.068));
+  padding: 0.8rem;
 }
 .div1 {
   /* border: solid red; */
@@ -259,9 +251,6 @@ button:hover {
   color: black;
   border: transparent;
 }
-.but {
-  border: solid blue;
-}
 .nav2 button {
   background-color: rgba(0, 0, 0, 0.562);
   padding: 0.6rem 1.2rem;
@@ -270,22 +259,24 @@ button:hover {
 }
 /* Main Content */
 .maincontent {
-  border: solid blue;
+  /* border: solid blue; */
   display: grid;
   grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
   gap: 0.5rem;
 }
 .div2 {
-  border: solid red;
+  /* border: solid red; */
   display: flex;
   align-items: center;
   font-size: 1.5rem;
   font-family: "Martel Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
   letter-spacing: 1px;
 }
 
 .div3 {
-  border: solid green;
+  /* border: solid green; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   /* justify-content: center; */
@@ -293,14 +284,17 @@ button:hover {
   gap: 0.5rem;
 }
 .card {
-  border: solid brown;
-  background-color: rgba(128, 128, 128, 0.219);
-border-radius: 10px;
-  padding: 0rem;
+  /* border: solid brown; */
+  background-color: rgba(128, 128, 128, 0.082);
+  border-radius: 10px;
+  cursor: pointer;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+.card:hover {
+  background-color: rgba(128, 128, 128, 0.295);
 }
 .value {
   display: flex;
@@ -341,11 +335,11 @@ border-radius: 10px;
     grid-template-columns: repeat(auto-fit, minmax(100px, 500px));
   }
   .div3 {
-    grid-template-columns: repeat(auto-fit,minmax(50px,300px));
+    grid-template-columns: repeat(auto-fit, minmax(50px, 300px));
     justify-content: center;
   }
-  .play{
+  .play {
     width: 0%;
-    opacity:0.5;
+    opacity: 0.5;
   }
 }
