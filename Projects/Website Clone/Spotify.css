@@ -382,11 +382,11 @@ button:hover {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1rem;
   padding:0.8rem;
 }
 .div5 .value img {
-  width:120px;
+  width:150px;
   height:150px;
   border-radius: 10px;
   box-shadow: 1px 0px 13px rgba(0, 0, 0, 0.568);
@@ -423,4 +423,8 @@ button:hover {
     grid-template-rows: repeat(auto-fit, minmax(50px,300px));
 
   }
+}
+/* Audio */
+audio{
+  background-color: transparent;
 }
