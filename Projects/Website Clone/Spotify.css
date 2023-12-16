@@ -5,6 +5,9 @@
   box-sizing: border-box;
   color: white;
 }
+button{
+  cursor: pointer;
+}
 body {
   width: 100vw;
   height: 100vh;
@@ -206,14 +209,23 @@ button:hover {
   width: 80vw;
   border: solid red;
   border-radius: 20px;
-  padding: 1rem;
+  /* padding:0.5rem; */
+}
+.navigation{
+  /* border: solid red; */
+  transition: all 10s;
+  padding: 0.5rem;
+}
+.navigation:hover{
+  background:linear-gradient(rgba(102, 9, 9, 0.493),rgba(0, 0, 0, 0.068));
 }
 .div1 {
-  border: solid red;
+  /* border: solid red; */
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
-  padding: 1rem;
+  padding:0.2rem;
 }
 .nav1 i {
   font-size: 1rem;
@@ -225,12 +237,32 @@ button:hover {
   background-color: rgba(0, 0, 0, 0.473);
   border: transparent;
 }
-.nav2 i {
-  font-size: 1.2rem;
-  color: black;
+.nav2{
+  /* border: solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:0.5rem;
 }
-.nav2 button{
-    padding: 0.4rem 1rem;
+.nav2 i {
+  font-size: 1rem;
+  color: white;
+}
+.nav2 .button{
+    padding: 0.7rem 1.2rem;
+    border-radius:20px;
+    font-weight: bold;
     background-color: white;
     color: black;
+    border: transparent;
+}
+.but{
+  border: solid blue;
+}
+.nav2 button{
+  background-color: rgba(0, 0, 0, 0.562);
+  padding: 0.6rem 1.2rem;
+  border-radius:20px;
+  border: transparent;
 }
