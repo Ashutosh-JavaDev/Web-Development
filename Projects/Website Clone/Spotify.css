@@ -5,7 +5,7 @@
   box-sizing: border-box;
   color: white;
 }
-button{
+button {
   cursor: pointer;
 }
 body {
@@ -40,10 +40,11 @@ body {
 }
 .grid1 {
   background-color: rgba(128, 128, 128, 0.13);
+  position: sticky;
   border-radius: 10px;
   display: grid;
   padding: 0.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(100px,500px));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 500px));
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
@@ -77,6 +78,7 @@ body {
 /* Grid  2 */
 .grid2 {
   background-color: rgba(128, 128, 128, 0.13);
+  position: sticky;
   border-radius: 10px;
   display: grid;
   grid-template-rows: repeat(auto-fit, minmax(10px, 40px));
@@ -198,11 +200,11 @@ button:hover {
 .artist img {
   width: 50px;
   height: 50px;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 /* Grid 3 */
 .grid3 {
-  background:linear-gradient(rgba(83, 77, 77, 0.541), rgba(43, 40, 40, 0.151));
+  background: linear-gradient(rgba(83, 77, 77, 0.541), rgba(43, 40, 40, 0.151));
   grid-row: 1/3;
   grid-column: 2/3;
   height: 100%;
@@ -211,13 +213,13 @@ button:hover {
   border-radius: 20px;
   /* padding:0.5rem; */
 }
-.navigation{
+.navigation {
   /* border: solid red; */
   transition: all 10s;
   padding: 0.5rem;
 }
-.navigation:hover{
-  background:linear-gradient(rgba(102, 9, 9, 0.493),rgba(0, 0, 0, 0.068));
+.navigation:hover {
+  background: linear-gradient(rgba(102, 9, 9, 0.493), rgba(0, 0, 0, 0.068));
 }
 .div1 {
   /* border: solid red; */
@@ -225,7 +227,7 @@ button:hover {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  padding:0.2rem;
+  padding: 0.2rem;
 }
 .nav1 i {
   font-size: 1rem;
@@ -237,32 +239,113 @@ button:hover {
   background-color: rgba(0, 0, 0, 0.473);
   border: transparent;
 }
-.nav2{
+.nav2 {
   /* border: solid red; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap:0.5rem;
+  gap: 0.5rem;
 }
 .nav2 i {
   font-size: 1rem;
   color: white;
 }
-.nav2 .button{
-    padding: 0.7rem 1.2rem;
-    border-radius:20px;
-    font-weight: bold;
-    background-color: white;
-    color: black;
-    border: transparent;
+.nav2 .button {
+  padding: 0.7rem 1.2rem;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  border: transparent;
 }
-.but{
+.but {
   border: solid blue;
 }
-.nav2 button{
+.nav2 button {
   background-color: rgba(0, 0, 0, 0.562);
   padding: 0.6rem 1.2rem;
-  border-radius:20px;
+  border-radius: 20px;
   border: transparent;
+}
+/* Main Content */
+.maincontent {
+  border: solid blue;
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 0.5rem;
+}
+.div2 {
+  border: solid red;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: "Martel Sans", sans-serif;
+  letter-spacing: 1px;
+}
+
+.div3 {
+  border: solid green;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  /* justify-content: center; */
+  align-items: center;
+  gap: 0.5rem;
+}
+.card {
+  border: solid brown;
+  background-color: rgba(128, 128, 128, 0.219);
+border-radius: 10px;
+  padding: 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.value img {
+  width: 60px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 1px 0px 13px rgba(0, 0, 0, 0.568);
+}
+.play button {
+  background-color: rgba(0, 0, 0, 0.527);
+  box-shadow: 1px 0px 13px rgba(0, 0, 0, 0.527);
+  /* opacity: 0; */
+  border-radius: 25px;
+  border: transparent;
+}
+.play:hover {
+  opacity: 1;
+}
+.play {
+  /* border: solid black; */
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  opacity: 0;
+}
+.play i {
+  font-size: 3rem;
+  color: rgba(23, 207, 23, 0.74);
+}
+@media (max-width: 600px) {
+  .maincontent {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 500px));
+  }
+  .div3 {
+    grid-template-columns: repeat(auto-fit,minmax(50px,300px));
+    justify-content: center;
+  }
+  .play{
+    width: 0%;
+    opacity:0.5;
+  }
 }
