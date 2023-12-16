@@ -76,10 +76,11 @@ body {
   background-color: rgba(128, 128, 128, 0.13);
   border-radius: 10px;
   display: grid;
-  grid-template-rows: repeat(auto-fit, minmax(50px, 80px));
+  grid-template-rows: repeat(auto-fit, minmax(10px,40px));
   /* justify-content: center; */
   /* align-items: center; */
   gap: 0.2rem;
+  padding-bottom:8rem;
 }
 .box1 {
   display: flex;
@@ -102,7 +103,8 @@ i {
   color: rgba(255, 255, 255, 0.507);
   transition: all 0.3s;
   cursor: pointer;
-  font-weight: 10;
+  font-weight:bold;
+  letter-spacing:1px;
   font-size: 1rem;
 }
 .libary p:hover,
@@ -124,7 +126,78 @@ i:hover {
 button:hover{
     background-color: rgba(255, 255, 255, 0.13);
 }
+/* Box 3 */
+.box3{
+    /* border: solid red; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50px,100px));
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem;
+}
+.recent{
+    /* border: solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.3rem;
+}
+.para{
+    font-size:1rem;
+    cursor: pointer;
+    color: grey;
+}
+.para:hover{
+    color: white;
+}
+/* Box4 */
+.box4{
+    /* border: solid red; */
+    display: grid;
+    grid-template-rows: repeat(auto-fit,minmax(50px,100px));
+    /* justify-content: center; */
+    gap:0.1rem;
+    cursor: pointer;
+    align-items: center;
+}
+.artist{
+    /* border: solid blue; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap:0.2rem;
+    padding: 0.2rem;
+    width: 100%;
+    transition: all 0.3s;
+}
+.artist:hover{
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.062);
+
+}
+.text{
+    /* border: solid green; */
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.text p{
+    color: grey;
+  font-family: "Mulish", sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+.text h5{
+    letter-spacing: 1px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.artist img{
+    width:50px;
+    height: 50px;
+    border-radius: 10px;
+}
 .grid3 {
   background-color: red;
-  /* grid-column: 1/3; */
 }
