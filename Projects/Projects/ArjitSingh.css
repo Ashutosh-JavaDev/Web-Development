@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Bubblegum+Sans&family=Cedarville+Cursive&family=Josefin+Sans:wght@300;400&family=Jost:wght@500&family=Lora:wght@500&family=Martel+Sans:wght@600&family=Mulish&family=Pacifico&family=Playfair+Display:wght@500&family=Poppins:wght@300&family=Raleway&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&family=Rubik&family=Seaweed+Script&family=Signika+Negative&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.356);
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: transparent; */
+  font-family: "Abel", sans-serif;
+  font-family: "Bubblegum Sans", sans-serif;
+  font-family: "Cedarville Cursive", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Jost", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Martel Sans", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Pacifico", cursive;
+  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Seaweed Script", cursive;
+  font-family: "Signika Negative", sans-serif;
+  scroll-behavior: smooth;
+}
