@@ -85,7 +85,7 @@ p{
 .div2{
     /* border: solid black; */
     background: linear-gradient(rgba(15, 11, 11, 0.637),rgb(0, 19, 22));
-    padding: 0.6rem;
+    padding:1.5rem;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,800px));
     justify-content: space-between;
