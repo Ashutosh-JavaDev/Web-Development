@@ -137,6 +137,9 @@ audio{
     .container{
     gap:3rem;
     }
+    .div1 h2{
+        font-size:2rem;
+    }
     audio{
         width: 250px;
         height:30px;
