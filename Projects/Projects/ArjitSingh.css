@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  background-color: rgba(0, 0, 0, 0.356);
+  background-color: rgb(9, 9, 54);
   box-sizing: border-box;
   color: white;
 }
@@ -28,4 +28,16 @@ body {
   font-family: "Seaweed Script", cursive;
   font-family: "Signika Negative", sans-serif;
   scroll-behavior: smooth;
+}
+.container{
+  border: solid red;
+}
+.card{
+  border: solid blue;
+}
+.div1{
+  border: solid green;
+}
+.div2{
+  border: solid yellow;
 }
