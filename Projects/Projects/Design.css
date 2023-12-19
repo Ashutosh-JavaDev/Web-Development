@@ -130,6 +130,7 @@ audio{
     }
     .music{
         border-radius: 0px;
+        justify-content: center;
     }
 }
 /* Media */
@@ -146,5 +147,7 @@ audio{
     }
     .music{
         border-radius: 0px;
+        justify-content: center;
+
     }
 }
