@@ -236,6 +236,13 @@ position: relative;
   font-size:1.5rem;
 }
 /* Box4 */
+.staticProject{
+  border: solid red;
+  color: black;
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: bold;
+  text-align: center;
+}
 #box4{
   background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.7)),
   url("Projects/Images/crowd-1056764_1280.jpg");
