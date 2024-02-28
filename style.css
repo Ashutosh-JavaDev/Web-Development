@@ -398,8 +398,31 @@ h2 {
   }
 }
 .icon2{
-  animation: reverseRotation 5s infinite linear;
+  animation: reverseRotation 5s infinite alternate;
 
+}
+@keyframes reverseRotation {
+  0%{
+    transform: scale(0.5);
+  }
+
+  50%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(0.5);
+  }
+}
+.icon3{
+  animation: reverseRot 5s infinite linear;
+}
+@keyframes reverseRot {
+  0%{
+    transform: rotate(360deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
 }
 /* Box8 */
 #box8 {
