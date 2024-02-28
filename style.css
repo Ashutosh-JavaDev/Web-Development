@@ -451,7 +451,7 @@ h2 {
   padding: 0.5rem;
 }
 /* Media */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   #box1 {
     display: grid;
 
@@ -492,6 +492,23 @@ h2 {
   }
   #box14{
     min-height: 100vh;
+  }
+  .contact12{
+    font-size:xx-large;
+    position:absolute;
+    top:25%;
+    right:7%;
+    
+  }
+  .icon1 a{
+    color: white;
+  }
+
+  .icon2 a{
+    color: white;
+  }
+  .icon3 a{
+    color: white;
   }
 }
 /* Box14 */
