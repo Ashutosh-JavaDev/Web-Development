@@ -380,6 +380,12 @@ h2 {
   letter-spacing: 2px;
   /* color: black; */
 }
+.contact12{
+  font-size:xx-large;
+  position:absolute;
+  bottom:20%;
+  left:47%;
+}
 /* Box8 */
 #box8 {
   /* margin:5rem 0rem; */
