@@ -446,4 +446,24 @@ h2 {
   #box6 p {
     padding: 1rem;
   }
+  #box14{
+    min-height: 100vh;
+  }
+}
+/* Box14 */
+#box14 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.7)),
+    url("Projects/Images/programmer-1653351_1280.png");
+  min-height: 10vh;
+  background-position: center;
+  padding: 1rem;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* min-height: 100vh; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
