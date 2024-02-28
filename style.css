@@ -386,6 +386,21 @@ h2 {
   bottom:20%;
   left:47%;
 }
+.icon1{
+  animation: rotation 5s infinite linear;
+}
+@keyframes rotation {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.icon2{
+  animation: reverseRotation 5s infinite linear;
+
+}
 /* Box8 */
 #box8 {
   /* margin:5rem 0rem; */
