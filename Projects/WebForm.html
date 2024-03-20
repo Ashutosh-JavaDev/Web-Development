@@ -9,11 +9,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div class="md:mx-6 my-3 h-screen border border-black flex flex-col justify-center">
+    <div class="md:mx-6 my-3 border border-black flex flex-col justify-evenly gap-5 md:gap-10">
       <!-- Navigation -->
       <div class="p-2">
         <nav
-          class="flex absolute top-10 w-full sm:left-1/4 justify-between px-5 py-2 items-center sm:w-1/2 m-auto border border-red-700"
+          class="flex justify-between px-5 py-2 items-center sm:w-1/2 m-auto border border-red-700"
         >
           <div>
             <img
@@ -32,7 +32,7 @@
         </nav>
       </div>
       <!-- Pre -->
-      <div class="border border-blue-800 flex flex-col justify-between items-center lg:w-1/2 p-4 mx-auto">
+      <div class="border border-blue-800 flex flex-col justify-evenly items-center lg:w-1/2 p-4 mx-auto">
         <h1 class="text-4xl font-semibold leading-[50px] tracking-wide text-center text-transparent bg-clip-text bg-gradient-to-l from-pink-400 to-blue-600 mb-10">
             PlugAuth - Tailwind CSS 3 Authentication Page Template
         </h1>
@@ -43,12 +43,12 @@
         <h1 class="text-gray-700 font-bold text-center text-2xl">Tailwind Demo</h1>
       </div>
       <!-- Card -->
-      <div>
-        <div><img src="Images/gift_card.png" alt="Image"><p>Login Page</p></div>
-        <div><img src="Images/gift_card.png" alt="Image"><p>Login Page</p></div>
-        <div><img src="Images/gift_card.png" alt="Image"><p>Login Page</p></div>
-        <div><img src="Images/gift_card.png" alt="Image"><p>Login Page</p></div>
-        <div><img src="Images/gift_card.png" alt="Image"><p>Login Page</p></div>
+      <div class="grid lg:grid-cols-3 justify-evenly gap-10 items-center m-auto">
+        <div class="shadows w-fit flex flex-col justify-center items-center"><img class="p-2" src="Images/1.png" alt="Image"><p class="text-gray-700 font-bold tracking-wide">Login Page</p></div>
+        <div class="shadows w-fit flex flex-col justify-center items-center"><img class="p-2" src="Images/2.png" alt="Image"><p class="text-gray-700 font-bold tracking-wide">Register Page</p></div>
+        <div class="shadows w-fit flex flex-col justify-center items-center"><img class="p-2" src="Images/3.png" alt="Image"><p class="text-gray-700 font-bold tracking-wide">Forget Password Page</p></div>
+        <div class="shadows w-fit flex flex-col justify-center items-center"><img class="p-2" src="Images/4.png" alt="Image"><p class="text-gray-700 font-bold tracking-wide">Lock Screen Page</p></div>
+        <div class="shadows w-fit flex flex-col justify-center items-center"><img class="p-2" src="Images/5.png" alt="Image"><p class="text-gray-700 font-bold tracking-wide">Logout Page</p></div>
       </div>
     </div>
   </body>

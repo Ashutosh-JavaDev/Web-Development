@@ -7,3 +7,6 @@
   #anchor{
     font-family: "Charmonman", cursive;
   }
+  .shadows{
+    box-shadow: 1px 1px 5px;
+  }
