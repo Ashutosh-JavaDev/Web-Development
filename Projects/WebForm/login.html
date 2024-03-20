@@ -1,15 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Page</title>
-    
-   <link rel="shortcut icon" href="/Web-Development/Projects/Images/logo2.png" type="image/x-icon">
-    <script src="https://cdn.tailwindcss.com"></script>
 
-</head>
-<body>
-    
-</body>
+    <link
+      rel="shortcut icon"
+      href="/Web-Development/Projects/Images/logo2.png"
+      type="image/x-icon"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="h-screen flex justify-center items-center border border-red-600 item-center"
+    >
+      <div
+        class="grid grid-cols-1 lg:grid-cols-2 rounded-xl justify-between gap-3 bg-yellow-400 p-2"
+      >
+        <div>
+          <img
+            class="hidden lg:block rounded-xl"
+            src="/Web-Development/Projects/Images/bg-auth-2.png"
+            alt="Image"
+          />
+        </div>
+        <div class="border border-red-700">
+          <div class="flex justify-between p-3">
+            <p class="text-gray-700 font-bold text-xl">Register</p>
+            <p class="text-blue-800 font-bold text-xl">Ashu.Login</p>
+          </div>
+          <div class="flex border border-black flex-col p-4 gap-8">
+            <div class="flex flex-col justify-center gap-2">
+              <label class="text-sm font-bold" for="forms">Name</label>
+              <input class="p-2 text-sm" type="text" id="forms" placeholder="Enter your Name" />
+            </div>
+            <div class="flex flex-col justify-center gap-2">
+              <label class="text-sm font-bold" for="forms">Email Address</label>
+              <input class="p-2 text-sm" type="email" id="forms" placeholder="Enter your Email" />
+            </div>
+            <div class="flex flex-col justify-center gap-2">
+              <label class="text-sm font-bold" for="forms">Password</label>
+              <input class="p-2 text-sm" type="password" id="forms" placeholder="Enter Password" />
+            </div>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
