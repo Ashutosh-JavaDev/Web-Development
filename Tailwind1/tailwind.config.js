@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./public/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "josefin-sans": ['"Josefin Sans"', "sans-serif"],
+        "lexend": ['Lexend', "sans-serif"],
+        "gorditas":['Gorditas', "serif"]
+      },
+    },
   },
   plugins: [],
 }
