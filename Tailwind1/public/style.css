@@ -28,7 +28,7 @@
   animation-name: updown ;
   animation-duration: 5s;
   animation-iteration-count: infinite;
-  animation-fill-mode: both;
+  animation-direction: alternate;
 }
 @keyframes updown {
   0%{
