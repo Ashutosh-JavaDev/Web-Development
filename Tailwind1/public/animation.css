@@ -56,7 +56,7 @@
     }
   }
   .rotate{
-    animation: rotated 5s ease-in 0s 1 infinite alternate;
+    animation: rotated 5s ease-in 0s infinite alternate;
   }
   @keyframes rotated {
     0%{
