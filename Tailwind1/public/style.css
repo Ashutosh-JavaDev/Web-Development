@@ -762,11 +762,6 @@ video {
   line-height: 2.25rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -878,6 +873,11 @@ video {
     padding-right: 0.75rem;
   }
 
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .sm\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -941,6 +941,10 @@ video {
     top: 5rem;
   }
 
+  .lg\:top-24 {
+    top: 6rem;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
@@ -954,5 +958,15 @@ video {
 @media (min-width: 1280px) {
   .xl\:top-28 {
     top: 7rem;
+  }
+
+  .xl\:top-36 {
+    top: 9rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:top-44 {
+    top: 11rem;
   }
 }
