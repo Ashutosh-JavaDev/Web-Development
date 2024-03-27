@@ -2,6 +2,7 @@
     animation-name: updown ;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
     animation-direction: alternate;
   }
   @keyframes updown {
