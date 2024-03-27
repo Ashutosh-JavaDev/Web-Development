@@ -24,6 +24,21 @@
 ::after {
   --tw-content: '';
 }
+.animate{
+  animation-name: updown ;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+@keyframes updown {
+  0%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(100px);
+
+  }
+}
 
 /*
 1. Use a consistent sensible line-height in all browsers.
@@ -574,6 +589,10 @@ video {
 
 .h-6 {
   height: 1.5rem;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .h-screen {
