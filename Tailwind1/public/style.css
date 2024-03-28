@@ -684,6 +684,11 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+.border-red-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(220 38 38 / var(--tw-border-opacity));
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -960,8 +965,8 @@ video {
     top: 7rem;
   }
 
-  .lg\:top-60 {
-    top: 15rem;
+  .lg\:top-40 {
+    top: 10rem;
   }
 
   .lg\:w-1\/2 {
@@ -979,8 +984,8 @@ video {
     top: 9rem;
   }
 
-  .xl\:top-64 {
-    top: 16rem;
+  .xl\:top-56 {
+    top: 14rem;
   }
 
   .xl\:w-1\/2 {
