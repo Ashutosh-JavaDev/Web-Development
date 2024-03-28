@@ -30,7 +30,7 @@
     }
   }
   .slideleft{
-    animation: slidel 5s ease-in 0s 1;
+    animation: slidel 3s ease-in 0s 1;
     
   }
   @keyframes slidel {
