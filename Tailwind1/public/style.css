@@ -556,8 +556,8 @@ video {
   top: 2.5rem;
 }
 
-.top-80 {
-  top: 20rem;
+.top-32 {
+  top: 8rem;
 }
 
 .z-0 {
@@ -879,6 +879,10 @@ video {
     position: fixed;
   }
 
+  .sm\:top-3 {
+    top: 0.75rem;
+  }
+
   .sm\:px-3 {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
@@ -898,6 +902,10 @@ video {
 @media (min-width: 768px) {
   .md\:top-14 {
     top: 3.5rem;
+  }
+
+  .md\:top-52 {
+    top: 13rem;
   }
 
   .md\:block {
@@ -956,6 +964,10 @@ video {
     top: 7rem;
   }
 
+  .lg\:top-80 {
+    top: 20rem;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
@@ -969,6 +981,10 @@ video {
 @media (min-width: 1280px) {
   .xl\:top-36 {
     top: 9rem;
+  }
+
+  .xl\:top-96 {
+    top: 24rem;
   }
 
   .xl\:w-1\/2 {
