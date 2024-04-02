@@ -967,6 +967,10 @@ video {
     justify-content: center;
   }
 
+  .md\:gap-5 {
+    gap: 1.25rem;
+  }
+
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
