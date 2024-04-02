@@ -1,6 +1,6 @@
 .animate{
     animation-name: updown ;
-    animation-duration: 5s;
+    animation-duration:2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-direction: alternate;
@@ -15,7 +15,7 @@
     }
   }
   .scaleup{
-    animation: upscale 3s ease-in 0s 1 ;
+    animation: upscale 1s ease-in 0s 1 ;
   }
   @keyframes upscale {
     0%{
@@ -30,7 +30,7 @@
     }
   }
   .slideleft{
-    animation: slidel 3s ease-in 0s 1;
+    animation: slidel 1s ease-in 0s 1;
     
   }
   @keyframes slidel {
