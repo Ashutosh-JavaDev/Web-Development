@@ -6,7 +6,8 @@ module.exports = {
       fontFamily: {
         "josefin-sans": ['"Josefin Sans"', "sans-serif"],
         "lexend": ['Lexend', "sans-serif"],
-        "gorditas":['Gorditas', "serif"]
+        "gorditas":['Gorditas', "serif"],
+       "lugrasimo": ['Lugrasimo', "cursive"]
       },
     },
   },
