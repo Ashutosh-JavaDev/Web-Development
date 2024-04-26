@@ -599,9 +599,9 @@ video {
   letter-spacing: 0.1em;
 }
 
-.text-gray-600 {
+.text-blue-900 {
   --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
+  color: rgb(30 58 138 / var(--tw-text-opacity));
 }
 
 .shadow-md {
@@ -613,6 +613,10 @@ video {
 .shadow-gray-400 {
   --tw-shadow-color: #9ca3af;
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+.duration-150 {
+  transition-duration: 150ms;
 }
 
 .hover\:text-white:hover {
