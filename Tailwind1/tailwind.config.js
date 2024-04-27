@@ -9,7 +9,8 @@ module.exports = {
         "gorditas":['Gorditas', "serif"],
        "lugrasimo": ['Lugrasimo', "cursive"],
        "jost":['Jost',"sans-serif"],
-       "seawead":['Seaweed Script', "cursive"]
+       "seawead":['Seaweed Script', "cursive"],
+       "niconne":['Niconne', "cursive"]
       },
     },
   },
