@@ -8,7 +8,8 @@ module.exports = {
         "lexend": ['Lexend', "sans-serif"],
         "gorditas":['Gorditas', "serif"],
        "lugrasimo": ['Lugrasimo', "cursive"],
-       "jost":['Jost',"sans-serif"]
+       "jost":['Jost',"sans-serif"],
+       "seawead":['Seaweed Script', "cursive"]
       },
     },
   },
