@@ -552,6 +552,10 @@ video {
   display: flex;
 }
 
+.w-52 {
+  width: 13rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -574,6 +578,10 @@ video {
 
 .justify-evenly {
   justify-content: space-evenly;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .bg-sky-400 {
