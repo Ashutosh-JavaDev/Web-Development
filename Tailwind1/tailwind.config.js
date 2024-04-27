@@ -10,7 +10,8 @@ module.exports = {
        "lugrasimo": ['Lugrasimo', "cursive"],
        "jost":['Jost',"sans-serif"],
        "seawead":['Seaweed Script', "cursive"],
-       "niconne":['Niconne', "cursive"]
+       "niconne":['Niconne', "cursive"],
+       "tangle":['Tangerine', "cursive"]
       },
     },
   },
