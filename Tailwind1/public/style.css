@@ -568,6 +568,10 @@ video {
   height: 100%;
 }
 
+.w-3\/4 {
+  width: 75%;
+}
+
 .w-48 {
   width: 12rem;
 }
@@ -808,11 +812,19 @@ video {
     width: 75%;
   }
 
+  .md\:w-full {
+    width: 100%;
+  }
+
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:justify-normal {
+    justify-content: normal;
   }
 }
