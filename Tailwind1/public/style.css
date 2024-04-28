@@ -572,10 +572,6 @@ video {
   height: 100%;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
 .w-3\/4 {
   width: 75%;
 }
@@ -643,11 +639,6 @@ video {
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
-.border-red-700 {
-  --tw-border-opacity: 1;
-  border-color: rgb(185 28 28 / var(--tw-border-opacity));
 }
 
 .bg-sky-400 {
@@ -828,6 +819,10 @@ video {
 @media (min-width: 768px) {
   .md\:grid {
     display: grid;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
   }
 
   .md\:w-5\/6 {
