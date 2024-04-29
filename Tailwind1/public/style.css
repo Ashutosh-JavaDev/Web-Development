@@ -564,10 +564,6 @@ video {
   display: flex;
 }
 
-.grid {
-  display: grid;
-}
-
 .h-full {
   height: 100%;
 }
@@ -844,10 +840,6 @@ video {
     width: 100%;
   }
 
-  .md\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -858,11 +850,5 @@ video {
 
   .md\:gap-5 {
     gap: 1.25rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
