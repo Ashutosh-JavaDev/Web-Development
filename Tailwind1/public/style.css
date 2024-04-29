@@ -687,6 +687,10 @@ video {
   font-family: Niconne, cursive;
 }
 
+.font-seawead {
+  font-family: Seaweed Script, cursive;
+}
+
 .font-tangle {
   font-family: Tangerine, cursive;
 }
@@ -741,6 +745,11 @@ video {
 .text-red-700 {
   --tw-text-opacity: 1;
   color: rgb(185 28 28 / var(--tw-text-opacity));
+}
+
+.text-sky-700 {
+  --tw-text-opacity: 1;
+  color: rgb(3 105 161 / var(--tw-text-opacity));
 }
 
 .shadow-md {
