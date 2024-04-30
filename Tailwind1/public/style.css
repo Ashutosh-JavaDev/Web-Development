@@ -548,6 +548,10 @@ video {
   position: fixed;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -558,10 +562,6 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
 }
 
 .flex {
@@ -864,8 +864,8 @@ video {
     display: grid;
   }
 
-  .md\:w-5\/6 {
-    width: 83.333333%;
+  .md\:w-9\/12 {
+    width: 75%;
   }
 
   .md\:w-full {
