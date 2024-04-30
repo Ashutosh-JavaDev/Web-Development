@@ -885,4 +885,9 @@ video {
   .lg\:h-screen {
     height: 100vh;
   }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
