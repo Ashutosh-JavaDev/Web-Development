@@ -548,12 +548,20 @@ video {
   position: fixed;
 }
 
+.relative {
+  position: relative;
+}
+
 .z-10 {
   z-index: 10;
 }
 
 .m-auto {
   margin: auto;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .mt-3 {
