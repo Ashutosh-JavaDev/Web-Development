@@ -552,8 +552,8 @@ video {
   position: relative;
 }
 
-.top-12 {
-  top: 3rem;
+.top-16 {
+  top: 4rem;
 }
 
 .z-10 {
@@ -894,10 +894,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:top-16 {
-    top: 4rem;
-  }
-
   .lg\:h-screen {
     height: 100vh;
   }
