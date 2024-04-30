@@ -552,8 +552,8 @@ video {
   position: relative;
 }
 
-.top-8 {
-  top: 2rem;
+.top-12 {
+  top: 3rem;
 }
 
 .z-10 {
@@ -868,10 +868,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:top-12 {
-    top: 3rem;
-  }
-
   .md\:grid {
     display: grid;
   }
