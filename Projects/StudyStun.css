@@ -25,3 +25,8 @@ body{
     background-color: var(--background-color);
     padding: 0.1rem;
 }
+.head-content{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+}
