@@ -26,7 +26,33 @@ body{
     padding: 0.1rem;
 }
 .head-content{
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.Link{
+    color: var(--text-color);
+    /* padding: 0.2rem; */
+    font-size: 2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}
+.LogoImage{
+    height: 5.875rem;
+    width: 1.938rem;
+}
+.navigation{
+    display: none;
+    gap: 1.5rem;
+
+}
+@media screen and (min-width:768px) {
+    .navigation{
+        display: flex;
+    }
 }
