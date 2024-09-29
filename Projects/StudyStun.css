@@ -84,32 +84,21 @@ body {
   height: 1.5rem;
   width: 1.5rem;
 }
-@media screen and (min-width: 768px) {
-  .navigation {
-    display: flex;
-  }
-  .Contactus {
-    display: block;
-  }
-}
-@media screen and (max-width: 768px) {
-  .Button {
-    display: block;
-  }
-}
+
+
 /* Hero Section */
-.hero-Section{
+.hero-Section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   justify-content: center;
   align-items: center;
-  max-width:70%;
+  max-width: 70%;
   margin: 0 auto;
   padding: 2rem;
   border: solid red;
   gap: 2rem;
 }
-.first-hero{
+.first-hero {
   border: solid blue;
   padding: 2rem;
   margin: 0 auto;
@@ -117,11 +106,38 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:1rem;
+  gap: 1rem;
   flex-direction: column;
+}
+.second-hero {
+  width: 80%;
+  border-radius: 25px;
+}
+@media screen and (min-width: 768px) {
+  .navigation {
+    display: flex;
+  }
+  .Contactus {
+    display: block;
+  }
 
 }
-.second-hero{
-  width:80%;
-  border-radius:25px;
+@media screen and (max-width: 768px) {
+  .Button {
+    display: block;
+  }
+  .hero-Section {
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  }
+  .hero-Section{
+    max-width: 100%;
+    margin:0;
+  }
+  .second-hero{
+    width: 50%;
+  }
+  .first-hero{
+    width:60%;
+    padding: 0.325rem;
+  }
 }
