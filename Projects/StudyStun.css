@@ -98,9 +98,14 @@ body {
   }
 }
 /* Hero Section */
-.hero-section{
+.hero-Section{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   justify-content: center;
+  align-items: center;
+  max-width: fit-content;
   gap: 2rem;
+}
+.second-hero{
+  width:12px;
 }
