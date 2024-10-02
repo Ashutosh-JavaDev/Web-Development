@@ -88,9 +88,11 @@ body {
 /* Hero Section */
 .allSection {
   display: flex;
-  flex-direction: row;
+  /* height:85%; */
+  flex-direction: column;
+  /* border: solid red; */
   justify-content: space-between;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-items: center;
 }
 .hero-Section {
@@ -116,6 +118,13 @@ body {
   align-items: center;
   gap: 1rem;
   flex-direction: column;
+}
+.trusted_Section h3{
+  font-weight:bold;
+  font-size:2rem;
+  font-stretch: expanded;
+  color: var(--gray);
+
 }
 .second-hero {
   width: 80%;
@@ -158,6 +167,10 @@ body {
 @media screen and (min-width: 768px) {
   .navigation {
     display: flex;
+  }
+
+  .allSection{
+    height: 85%;
   }
   .Contactus {
     display: block;
