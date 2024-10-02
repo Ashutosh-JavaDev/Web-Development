@@ -167,7 +167,7 @@ body {
 .Advantage-section {
   /* margin: 2rem 0rem; */
   /* height: 100vh; */
-  border: solid red;
+  /* border: solid red; */
   padding: 1.2rem;
   display: flex;
   flex-direction: column;
@@ -190,7 +190,7 @@ body {
   padding: 1rem;
   justify-items: center;
   gap: 2rem;
-  border: solid blue;
+  /* border: solid blue; */
 }
 #card p{
   color: white;
@@ -202,7 +202,7 @@ body {
   align-items: center;
   gap:0.5rem;
   width:50%;
-  padding: 0.5rem;
+  padding:1rem;
   background-color: rgba(0, 174, 255, 0.596);
   border-radius: 10px;
   color: var(--light-gray);
@@ -215,7 +215,7 @@ body {
   align-items: center;
   gap:0.5rem;
   width:50%;
-  padding: 0.5rem;
+  padding:1rem;
   background-color: rgba(255, 0, 0, 0.966);
   border-radius: 10px;
   color: var(--light-gray);
@@ -228,7 +228,7 @@ body {
   align-items: center;
   gap:0.5rem;
   width:50%;
-  padding: 0.5rem;
+  padding:1rem;
   background-color: rgba(255, 166, 0, 0.966);
   border-radius: 10px;
   color: var(--light-gray);
@@ -241,7 +241,7 @@ body {
   align-items: center;
   gap:0.5rem;
   width:50%;
-  padding: 0.5rem;
+  padding:1rem;
   background-color: rgba(61, 155, 57, 0.966);
   border-radius: 10px;
   color: var(--light-gray);
@@ -254,21 +254,8 @@ body {
   align-items: center;
   gap:0.5rem;
   width:50%;
-  padding: 0.5rem;
+  padding:1rem;
   background-color: rgba(138, 28, 172, 0.966);
-  border-radius: 10px;
-  color: var(--light-gray);
-  /* border: solid red; */
-}
-.six {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap:0.5rem;
-  width:50%;
-  padding: 0.5rem;
-  background-color: rgba(255, 0, 0, 0.966);
   border-radius: 10px;
   color: var(--light-gray);
   /* border: solid red; */
@@ -348,8 +335,5 @@ body {
 @media only screen and (min-width: 700px) and (max-width: 1400px) {
   .second-hero {
     width: 60%;
-  }
-  .Advantage-section{
-    margin: 5rem 0rem;
   }
 }
