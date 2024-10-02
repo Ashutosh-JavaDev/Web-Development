@@ -190,7 +190,7 @@ body {
   padding: 1rem;
   justify-items: center;
   gap: 2rem;
-  border: solid blue;
+  /* border: solid blue; */
 }
 #card p {
   color: white;
