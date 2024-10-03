@@ -164,7 +164,19 @@ body {
   color: var(--dark-gray);
 }
 .trusted_Section{
+  /* border: solid red; */
   margin: 2rem 0;
+}
+.icons{
+  border: solid red;
+  /* width: 100%; */
+  display:flex;
+  max-width:500px;
+  margin: 0 auto;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--light-gray);
 }
 /* Advantage Section */
 .Advantage-section {
