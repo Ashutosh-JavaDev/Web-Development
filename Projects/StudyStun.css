@@ -169,6 +169,7 @@ body {
   /* height: 100vh; */
   /* border: solid red; */
   padding: 1.2rem;
+  background-color: var(--light-gray);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -184,7 +185,7 @@ body {
 }
 #card {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
   width:1000px;
   margin: 0 auto;
   align-content: center;
