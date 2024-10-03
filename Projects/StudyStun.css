@@ -163,6 +163,9 @@ body {
   font-size: 0.8rem;
   color: var(--dark-gray);
 }
+.trusted_Section{
+  margin: 2rem 0;
+}
 /* Advantage Section */
 .Advantage-section {
   /* margin: 2rem 0rem; */
