@@ -210,6 +210,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* max-width:1000px; */
   align-items: center;
   gap: 2rem;
 }
@@ -219,6 +220,7 @@ body {
 .Advantage-section p {
   color: var(--gray);
   font-size: 0.8rem;
+  /* width:50%; */
 }
 #card {
   display: grid;
