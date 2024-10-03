@@ -391,10 +391,10 @@ body {
     width: 100%;
   }
 }
-@media screen and (max-width:900px){
-  #card{
-    max-width:850px;
-  }
+@media only screen and (min-width: 700px) and (max-width:1000px) {
+ #card{
+  max-width: 600px;
+ }
 }
 @media only screen and (min-width: 700px) and (max-width: 1400px) {
   .second-hero {
