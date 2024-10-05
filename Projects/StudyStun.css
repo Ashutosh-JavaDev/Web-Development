@@ -300,12 +300,12 @@ body {
 }
 .Coursecards p{
   background-color: transparent;
-  border-radius: 30px;
-
+  border-radius:50%;
+  font-weight: bold;
   border:solid black;
   padding: 0.5rem;
-  
 }
+
 .Coursecards {
   border: solid green;
   background-color: var(--light-gray);
@@ -319,6 +319,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 0.5rem;
   align-items: center;
   gap: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
