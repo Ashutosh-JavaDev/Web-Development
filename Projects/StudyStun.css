@@ -298,6 +298,14 @@ body {
   align-items: center;
   gap: 1rem;
 }
+.Coursecards p{
+  background-color: transparent;
+  border-radius: 30px;
+
+  border:solid black;
+  padding: 0.5rem;
+  
+}
 .Coursecards {
   border: solid green;
   background-color: var(--light-gray);
