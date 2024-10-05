@@ -333,6 +333,32 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 0.5rem;
+}
+
+.Course-card{
+  border: solid blue;
+  /* max-width: 1000px; */
+  padding: 1rem 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(500px,2fr));
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.Coursecards{
+  border: solid green;
+  max-width:500px ;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:0.5rem;
+
+}
+.Coursecards img{
+  max-width:50%;
 }
 /* Media Query */
 @media screen and (min-width: 700px) {
