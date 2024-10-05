@@ -323,8 +323,9 @@ body {
 }
 /* Courses */
 .Courses {
-  border: solid red;
+  /* border: solid red; */
   padding: 1rem 0.5rem;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -334,7 +335,8 @@ body {
 }
 
 .Course-card {
-  border: solid blue;
+  /* border: solid blue; */
+  margin: 0 auto;
   max-width: 100%;
   padding: 2rem;
   display: grid;
@@ -344,7 +346,7 @@ body {
   gap: 1rem;
 }
 .Coursecards {
-  border: solid green;
+  /* border: solid green; */
   background-color: var(--light-gray);
   max-width: 205px;
   border-top-right-radius: 20px;
