@@ -286,7 +286,9 @@ body {
   align-items: center;
   gap: 0.5rem;
 }
-
+.Services{
+  font-size: 1.2rem;
+}
 .Course-card {
   /* border: solid blue; */
   margin: 0 auto;
