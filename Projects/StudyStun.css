@@ -163,7 +163,7 @@ body {
   font-size: 0.8rem;
   color: var(--dark-gray);
 }
-.trusted_Section{
+.trusted_Section {
   /* border: solid red; */
   margin: 2rem 0;
   display: flex;
@@ -173,32 +173,31 @@ body {
   justify-content: center;
   align-items: center;
 }
-.trusted_Section  h3{
+.trusted_Section h3 {
   color: black;
-
 }
-.icons{
+.icons {
   /* border: solid red; */
   /* width: 100%; */
-  display:flex;
-  max-width:500px;
+  display: flex;
+  max-width: 500px;
   flex-wrap: wrap;
   gap: 5rem;
   margin: 0 auto;
   padding: 1rem;
   justify-content: space-between;
   align-items: center;
- color: white;
- font-size:1.5rem;
+  color: white;
+  font-size: 1.5rem;
   background-color: var(--light-gray);
 }
-.phone i{
+.phone i {
   color: var(--text-color);
 }
-.mail i{
+.mail i {
   color: var(--link-color);
 }
-.github i{
+.github i {
   color: black;
 }
 /* Advantage Section */
@@ -226,7 +225,7 @@ body {
 #card {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
-  width:1000px;
+  width: 1000px;
   margin: 0 auto;
   align-content: center;
   padding: 1rem;
@@ -303,19 +302,17 @@ body {
   /* border: solid red; */
 }
 .six {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-    width: 50%;
-    padding: 1rem;
-    background-color: rgba(189, 21, 125, 0.966);
-    border-radius: 10px;
-    color: var(--light-gray);
-    /* border: solid red; */
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 50%;
+  padding: 1rem;
+  background-color: rgba(189, 21, 125, 0.966);
+  border-radius: 10px;
+  color: var(--light-gray);
+  /* border: solid red; */
 }
 #card img {
   width: 3rem;
@@ -325,9 +322,9 @@ body {
   border-radius: 100%;
 }
 /* Courses */
-.Courses{
+.Courses {
   border: solid red;
-  padding:1rem 0.5rem;
+  padding: 1rem 0.5rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -336,19 +333,21 @@ body {
   gap: 0.5rem;
 }
 
-.Course-card{
+.Course-card {
   border: solid blue;
-  max-width:100%;
+  max-width: 100%;
   padding: 2rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(300px,5fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 5fr));
   justify-content: center;
   align-items: center;
   gap: 1rem;
 }
-.Coursecards{
+.Coursecards {
   border: solid green;
-  max-width:210px;
+  max-width: 205px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
   /* height: 300px; */
   /* padding: 1rem; */
   /* height:400px; */
@@ -357,13 +356,13 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap:0.5rem;
-
+  gap: 0.5rem;
 }
-.Coursecards img{
-  width:200px;
+.Coursecards img {
+  width: 200px;
   height: 200px;
-
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 /* Media Query */
 @media screen and (min-width: 700px) {
@@ -404,7 +403,7 @@ body {
   .five {
     width: 100%;
   }
-  .six{
+  .six {
     width: 100%;
   }
   .hero-Section {
@@ -432,10 +431,10 @@ body {
     width: 100%;
   }
 }
-@media only screen and (min-width: 700px) and (max-width:1000px) {
- #card{
-  max-width: 600px;
- }
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+  #card {
+    max-width: 600px;
+  }
 }
 @media only screen and (min-width: 700px) and (max-width: 1400px) {
   .second-hero {
