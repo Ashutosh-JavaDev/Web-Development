@@ -297,7 +297,7 @@ body {
   max-width: 100%;
   padding: 2rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(1, 1fr));
   /* justify-content: center; */
   align-items: center;
   gap: 1rem;
@@ -354,8 +354,17 @@ body {
   .Contactus {
     display: block;
   }
+  .Course-card{
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  }
 
+}
+@media screen and (max-width:270px) {
 
+  .Coursecards img{
+    width: 100px;
+    height: 100px;
+  }
 }
 @media screen and (max-width: 700px) {
   .Button {
@@ -369,9 +378,7 @@ body {
     align-items: center;
     width: 100%;
   }
-  .Course-card{
-    grid-template-columns: repeat(auto-fit, minmax(1,1fr));
-  }
+ 
   .CardsColl{
     width: 100%;
   }
