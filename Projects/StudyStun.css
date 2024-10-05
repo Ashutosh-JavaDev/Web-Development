@@ -338,18 +338,19 @@ body {
 
 .Course-card{
   border: solid blue;
-  max-width: 1000px;
+  max-width:100%;
   padding: 2rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(400px,2fr));
+  grid-template-columns: repeat(auto-fit,minmax(300px,5fr));
   justify-content: center;
   align-items: center;
   gap: 1rem;
 }
 .Coursecards{
   border: solid green;
-  max-width:500px;
-  padding: 1rem;
+  max-width:210px;
+  /* height: 300px; */
+  /* padding: 1rem; */
   /* height:400px; */
   display: flex;
   flex-direction: column;
