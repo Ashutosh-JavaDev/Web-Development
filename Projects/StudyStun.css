@@ -345,6 +345,7 @@ body {
 }
 .Coursecards {
   border: solid green;
+  background-color: var(--light-gray);
   max-width: 205px;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
@@ -357,6 +358,14 @@ body {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.Coursecards:hover{
+  /* background-color: var(--text-color); */
+  /* transform: translateY(-10px); */
+  background-color: rgba(0, 0, 0, 0.733);
+  color: white;
 }
 .Coursecards img {
   width: 200px;
