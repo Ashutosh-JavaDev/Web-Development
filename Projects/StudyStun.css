@@ -236,7 +236,7 @@ body {
 #card p {
   color: white;
 }
-.one {
+.CardsColl{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -244,75 +244,28 @@ body {
   gap: 0.5rem;
   width: 50%;
   padding: 1rem;
-  background-color: rgba(0, 174, 255, 0.596);
+  /* background-color: rgba(0, 174, 255, 0.596); */
   border-radius: 10px;
   color: var(--light-gray);
   /* border: solid red; */
 }
-.two {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  width: 50%;
-  padding: 1rem;
-  background-color: rgba(255, 0, 0, 0.966);
-  border-radius: 10px;
-  color: var(--light-gray);
-  /* border: solid red; */
+.CardsColl:nth-child(1){
+  background-color: var(--link-color);
 }
-.three {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  width: 50%;
-  padding: 1rem;
-  background-color: rgba(255, 166, 0, 0.966);
-  border-radius: 10px;
-  color: var(--light-gray);
-  /* border: solid red; */
+.CardsColl:nth-child(2){
+  background-color:rgb(0, 183, 255);
 }
-.four {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  width: 50%;
-  padding: 1rem;
-  background-color: rgba(61, 155, 57, 0.966);
-  border-radius: 10px;
-  color: var(--light-gray);
-  /* border: solid red; */
+.CardsColl:nth-child(3){
+  background-color:rgb(230, 176, 30);
 }
-.five {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  width: 50%;
-  padding: 1rem;
-  background-color: rgba(138, 28, 172, 0.966);
-  border-radius: 10px;
-  color: var(--light-gray);
-  /* border: solid red; */
+.CardsColl:nth-child(4){
+  background-color: purple  ;
 }
-.six {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  width: 50%;
-  padding: 1rem;
-  background-color: rgba(189, 21, 125, 0.966);
-  border-radius: 10px;
-  color: var(--light-gray);
-  /* border: solid red; */
+.CardsColl:nth-child(5){
+  background-color: rgb(223, 10, 45);
+}
+.CardsColl:nth-child(6){
+  background-color: gray;
 }
 #card img {
   width: 3rem;
