@@ -328,6 +328,11 @@ body {
 .Courses{
   border: solid red;
   padding:1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 /* Media Query */
 @media screen and (min-width: 700px) {
