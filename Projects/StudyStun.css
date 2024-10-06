@@ -9,9 +9,10 @@
   --light-gray: #f0f0f0;
   --gray: #808080;
   --dark-gray: #555;
-} .Course-card{
-    grid-template-columns: repeat(auto-fit,minmax(1,1fr));
-  }
+}
+.Course-card {
+  grid-template-columns: repeat(auto-fit, minmax(1, 1fr));
+}
 
 * {
   margin: 0;
@@ -238,7 +239,7 @@ body {
 #card p {
   color: white;
 }
-.CardsColl{
+.CardsColl {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -251,22 +252,22 @@ body {
   color: var(--light-gray);
   /* border: solid red; */
 }
-.CardsColl:nth-child(1){
+.CardsColl:nth-child(1) {
   background-color: var(--link-color);
 }
-.CardsColl:nth-child(2){
-  background-color:rgb(0, 183, 255);
+.CardsColl:nth-child(2) {
+  background-color: rgb(0, 183, 255);
 }
-.CardsColl:nth-child(3){
-  background-color:rgb(230, 176, 30);
+.CardsColl:nth-child(3) {
+  background-color: rgb(230, 176, 30);
 }
-.CardsColl:nth-child(4){
-  background-color: purple  ;
+.CardsColl:nth-child(4) {
+  background-color: purple;
 }
-.CardsColl:nth-child(5){
+.CardsColl:nth-child(5) {
   background-color: rgb(223, 10, 45);
 }
-.CardsColl:nth-child(6){
+.CardsColl:nth-child(6) {
   background-color: gray;
 }
 #card img {
@@ -288,7 +289,7 @@ body {
   align-items: center;
   gap: 0.5rem;
 }
-.Services{
+.Services {
   font-size: 1.2rem;
 }
 .Course-card {
@@ -298,15 +299,15 @@ body {
   padding: 2rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(1, 1fr));
-  /* justify-content: center; */
+  justify-content: space-between;
   align-items: center;
   gap: 1rem;
 }
-.Coursecards p{
+.Coursecards p {
   background-color: transparent;
-  border-radius:50%;
+  border-radius: 50%;
   font-weight: bold;
-  border:solid black;
+  border: solid black;
   padding: 0.5rem;
 }
 
@@ -330,7 +331,7 @@ body {
   transition: all 0.5s;
   cursor: pointer;
 }
-.Coursecards:hover{
+.Coursecards:hover {
   /* background-color: var(--text-color); */
   /* transform: translateY(-10px); */
   background-color: rgba(0, 0, 0, 0.733);
@@ -341,6 +342,13 @@ body {
   height: 200px;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+}
+/* Testomonial */
+.Testomonial {
+}
+.TestomonialCard {
+}
+.TestCard {
 }
 /* Media Query */
 @media screen and (min-width: 700px) {
@@ -354,14 +362,12 @@ body {
   .Contactus {
     display: block;
   }
-  .Course-card{
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  .Course-card {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
-
 }
-@media screen and (max-width:270px) {
-
-  .Coursecards img{
+@media screen and (max-width: 270px) {
+  .Coursecards img {
     width: 100px;
     height: 100px;
   }
@@ -370,7 +376,7 @@ body {
   .Button {
     display: block;
   }
- 
+
   #card {
     display: flex;
     flex-direction: column;
@@ -378,8 +384,8 @@ body {
     align-items: center;
     width: 100%;
   }
- 
-  .CardsColl{
+
+  .CardsColl {
     width: 100%;
   }
   .hero-Section {
