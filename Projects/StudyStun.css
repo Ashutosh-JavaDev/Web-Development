@@ -372,7 +372,7 @@ body {
   gap: 2rem;
 }
 .TestCard {
-  border: solid rgba(91, 113, 114, 0.712);
+  /* border: solid rgba(91, 113, 114, 0.712); */
   padding: 1rem;
   display: flex;
   flex-wrap: wrap;
