@@ -271,10 +271,11 @@ body {
   background-color: gray;
 }
 #card img {
-  width: 3rem;
+  width:50px;
+  height:50px;
   overflow: auto;
   background-color: white;
-  padding: 0.5rem;
+  padding: 0.2rem;
   border-radius: 100%;
 }
 /* Courses */
@@ -345,10 +346,20 @@ body {
 }
 /* Testomonial */
 .Testomonial {
+  border: solid red;
 }
 .TestomonialCard {
+  border: solid blue;
 }
 .TestCard {
+  border: solid green;
+}
+.TestCard img{
+  width: 100px;
+  height: 100px;
+  padding:0.9rem;
+  background-color: rgba(128, 128, 128, 0.37);
+  border-radius: 100%;
 }
 /* Media Query */
 @media screen and (min-width: 700px) {
