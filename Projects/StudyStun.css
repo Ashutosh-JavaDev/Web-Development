@@ -130,7 +130,8 @@ body {
 }
 .second-hero {
   width: 80%;
-  border-radius: 25px;
+  border-radius:15px;
+  box-shadow:2px 5px 5px gray;
 }
 .button-hero {
   display: flex;
@@ -196,12 +197,24 @@ body {
 }
 .phone i {
   color: var(--text-color);
+  box-shadow: 2px 2px 3px green;
 }
 .mail i {
   color: var(--link-color);
+  box-shadow: 2px 2px 3px yellow;
+
+}
+.insta i{
+  box-shadow: 2px 2px 3px rgb(209, 8, 41);
+
 }
 .github i {
   color: black;
+  box-shadow: 2px 2px 3px blue;
+}
+.linkedin i{
+  box-shadow: 2px 2px 3px gray;
+
 }
 /* Advantage Section */
 .Advantage-section {
