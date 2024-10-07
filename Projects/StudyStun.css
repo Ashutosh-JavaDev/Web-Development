@@ -428,7 +428,7 @@ body {
   padding: 0.5rem;
   font-size:1.5rem;
   width:50%;
-  border: solid red;
+  /* border: solid red; */
   justify-content: space-between ;
   gap: 1rem;
 
