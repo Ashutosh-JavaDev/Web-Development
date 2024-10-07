@@ -417,6 +417,8 @@ body {
 }
 .topSection img{
   width:45px;
+  display: flex;
+  justify-content: start;
 }
 /* Media Query */
 @media screen and (min-width: 700px) {
