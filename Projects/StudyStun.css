@@ -202,12 +202,8 @@ body {
 .mail i {
   color: var(--link-color);
   /* box-shadow: 2px 2px 3px yellow; */
-
 }
-.insta i{
-  box-shadow: 2px 2px 3px rgb(209, 8, 41);
 
-}
 .github i {
   color: black;
   /* box-shadow: 2px 2px 3px blue; */
