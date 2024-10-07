@@ -197,11 +197,11 @@ body {
 }
 .phone i {
   color: var(--text-color);
-  box-shadow: 2px 2px 3px green;
+  /* box-shadow: 2px 2px 3px green; */
 }
 .mail i {
   color: var(--link-color);
-  box-shadow: 2px 2px 3px yellow;
+  /* box-shadow: 2px 2px 3px yellow; */
 
 }
 .insta i{
@@ -210,11 +210,7 @@ body {
 }
 .github i {
   color: black;
-  box-shadow: 2px 2px 3px blue;
-}
-.linkedin i{
-  box-shadow: 2px 2px 3px gray;
-
+  /* box-shadow: 2px 2px 3px blue; */
 }
 /* Advantage Section */
 .Advantage-section {
