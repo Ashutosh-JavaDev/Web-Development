@@ -393,6 +393,23 @@ body {
 .TestCard img:hover{
   background-color: white;
 }
+.footer{
+  background-color: var(--light-gray);
+}
+.FooterSection{
+  width:80%;
+  margin: 0 auto;
+  padding:2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:1rem;
+}
+
+.topSection img{
+  width:45px;
+}
 /* Media Query */
 @media screen and (min-width: 700px) {
   .navigation {
