@@ -15,5 +15,5 @@ else if(Marks>40){
     console.log("E");
 }
 else{
-    
+ console.log("Better Luck Next Time....");   
 }
