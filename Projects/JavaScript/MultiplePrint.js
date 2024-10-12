@@ -1,6 +1,7 @@
 let count1 = 0,
   count2 = 0,
-  count3 = 0;
+  count3 = 0,
+  count4=0;
 for (let i = 1; i <= 100; i++) {
   if (i % 3 == 0) {
     console.log("Fizz");
@@ -11,6 +12,9 @@ for (let i = 1; i <= 100; i++) {
   } else if (i % 3 == 0 && i % 5 == 0) {
     console.log("Muzz");
     count3++;
+  }
+  else {
+    count4++;
   }
 }
 console.log("Count 1 :", count1);
