@@ -8,3 +8,12 @@ else if(Marks>80){
 else if(Marks>70){
     console.log("C");
 }
+else if(Marks>60){
+    console.log("D");
+}
+else if(Marks>40){
+    console.log("E");
+}
+else{
+    
+}
