@@ -13,3 +13,6 @@ for(let i=1;i<=100;i++){
     count3++;
  }
 }
+console.log("Count 1 :",count1);
+console.log("Count 2 :",count2);
+console.log("Count 3 :",count3);
