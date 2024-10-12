@@ -5,3 +5,6 @@ if(Marks>90){
 else if(Marks>80){
     console.log("B");
 }
+else if(Marks>70){
+    console.log("C");
+}
