@@ -11,3 +11,4 @@ switch (Prefrence) {
     text = "Choose Wisely";
     break;
 }
+alert(text);
