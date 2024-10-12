@@ -13,6 +13,7 @@ for (let i = 1; i <= 100; i++) {
     console.log("Muzz");
     count3++;
   } else {
+    console.log(i);
     count4++;
   }
 }
